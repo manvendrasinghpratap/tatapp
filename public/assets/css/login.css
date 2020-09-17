@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e88e5+0,26c6da+100 */
+background: #1e88e5; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e88e5 0%, #26c6da 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1e88e5 0%,#26c6da 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1e88e5 0%,#26c6da 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e88e5', endColorstr='#26c6da',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container p{
+    max-width: 50%;
+    padding: 15px;
+}
+
+.logo-login{
+	width:100%;
+    max-width:200px;
+}
+.logo-inscription{
+	width:100%;
+    max-width:200px;
+}

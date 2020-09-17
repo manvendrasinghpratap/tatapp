@@ -1,0 +1,351 @@
+<html>
+  	<head>
+    	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+    	<title>Polar Scatter</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/style.css">
+	</head>
+		<!-- Trigger the modal with a button -->
+		<button id="modalBt" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+	
+		<div class="modal" tabindex="-1" role="dialog" id="myModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Edit Data Point</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="inner-div">
+						<input type="text" id="Title" placeholder="Title" style="border:1px solid black;"/><br/><br/>
+						<textarea rows="20" cols="20" type="text" id="Description" placeholder="Description"/></textarea><br/>
+					</div>
+					<div class="inner-div">
+						<div>
+							Rank:
+							<select id="Rank">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						</div>
+						<br/>
+						<div id="SectorDiv">
+							Sector: 
+							<select id="Sector">
+							</select>
+						</div>
+						<br/>
+						Source: <input type="text" id="Source"/><br/><br/>
+						Occurence Date: <input type="date" id="OccurenceDate"/><br/><br/>
+						Show on Target Chart? <input type="checkbox" id="Show_on_Target_Chart"/><br/><br/>
+						Show on timeline? <input type="checkbox" id="Show_on_timeline"/><br/><br/>
+					</div>
+					<div style="clear:both"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal" id="deleteFactor">Delete Factor</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal" id="saveBt">Save changes</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div id="userPanel">
+			Case: <input type="text" id="username"/>
+			<input type="button" id="addUser" value="Add Case"/>
+			<div id="users">
+				<a id="user1" class="active user" data-index="0">case1</a>
+			</div>
+		</div>
+		<div id="chartPanel">
+			<div id="panel">
+				<div class="panelDiv">
+					Chart Type:
+					<select id="chart_type">
+						<option value="1">Polar Scatter</option>
+						<option value="2">Default Scatter</option>
+					</select>
+				</div>
+				<div class="panelDiv">
+					Theme Type:
+					<select id="theme_type">
+						<option value="0">Default Theme</option>
+						<option value="1">DARK UNICA</option>
+						<option value="2">SAND SIGNIKA</option>
+						<option value="3">GRID LIGHT</option>
+					</select>
+				</div>
+				<div class="panelDiv">
+					Sector Type:
+					<input type="text" id="addSector"/>
+					<input type="button" value="Add" id="addBt"/>
+					Sector Type:
+					<select id="Sector_type">
+					</select>
+					<input type="button" value="Remove" id="removeBt"/>
+				</div>
+				<div class="panelDiv">
+					Sector Type:
+					<select id="Sector_type_factor">
+					</select>
+					<input type="button" value="Add Factor" id="addFactorBt"/>
+				</div>
+			</div>
+			<div id="container"></div>
+		</div>
+		
+		<div id="timeline" style="height: 400px; min-width: 310px"></div>
+	<body>
+	</body>
+	<script>
+		var defaultColors = ['rgba(223, 83, 83)', 'rgba(119, 152, 191)', 'rgba(119, 0, 191)', 'rgba(0, 152, 0)', 'rgba(0, 152, 191)', 'rgba(119, 15, 191)'];
+		var defaultNames = ['Target','Subject History','Relations','Subject Status','Threat', 'Social Media posts'];
+		var defaultData = [[[2,1]],
+					[[12,1]],
+					[[22,1]],
+					[[32,1]],
+					[[42,1]],
+					[[52,1]]];
+		var allData = [];
+		var chart_type = {
+            type: 'scatter',
+            polar: true,
+			events: {
+			}
+		};
+		var seriesIndex = 0, valIndex = 0, userIndex = 0, prevRank = 0;
+		var AddDbclk = 0;
+	</script>
+    <script src="js/highcharts.js"></script>
+	<script src="js/highcharts-more.js"></script>
+	<!-- <script src="https://rawgithub.com/highcharts/draggable-points/master/draggable-points.js?1"></script> -->
+	<script src="js/exporting.js"></script>
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			drawTimeline();
+			formatAllData(false);
+			makeAll();
+			$('body').on('click', function(e){
+				var target = $(e.target);
+				if(target.closest('.user').length){
+					userIndex = target.data('index');
+					$('#users a').each(function(){
+						$(this).attr('class', 'unactive user');
+					})
+					target.attr('class', 'active user');
+					makeAll();
+				}
+			});
+			$('#deleteFactor').on('click', function(){
+				var userData = allData[userIndex];
+				userData[seriesIndex].rankCnt[valIndex]--;
+				userData[seriesIndex].data.splice(valIndex, 1);
+				makeAll();
+			});
+			$('#addFactorBt').on('click', function(){
+				var userData = allData[userIndex];
+				var data = userData[seriesIndex],y;
+				if(data.data.length == 0){
+					y = defaultData[seriesIndex][0][1];
+				}else{
+					y = data.data.length+1;
+				}
+				formatModal();
+				$('#Rank').val(10);
+				AddDbclk = 1;
+				$('#SectorDiv').hide();
+				$('#deleteFactor').hide();
+			});
+			$('#theme_type').on('change', function(){
+				var val = Number($(this).val());
+				switch(val){
+					case 0:
+						defaultTheme();
+						break;
+					case 1:
+						darkUnica();
+						break;
+					case 2:
+						sandSignika();
+						break;
+					case 3:
+						gridLight();
+						break;
+				}
+				drawChart();
+			});
+			$('#addUser').on('click', function(){
+				var userName = $('#username').val();
+				if(userName.length == 0){
+					alert("You should input case!");
+				}else{
+					userIndex++;
+					$('#users a').each(function(){
+						$(this).attr('class', 'unactive user');
+					});
+					$('#users').append('<a data-index="'+userIndex+'" id="user'+(userIndex+1)+'" class="active user">'+userName+'</a>');
+					formatAllData(false);
+					makeAll();
+				}
+			});
+			$('#chart_type').on('change', function(){
+				var val = $(this).val(), i;
+				var data = allData[userIndex];
+				if(val == 1){
+					for(i = 0; i < data.length; i++){
+						data[i].draggableX = false;
+						data[i].draggableY = false;
+					}
+					chart_type = {
+						type: 'scatter',
+						polar: true
+					};
+				}else{
+					for(i = 0; i < data.length; i++){
+						data[i].draggableX = true;
+						data[i].draggableY = true;
+					}
+					chart_type = {
+						type: 'scatter',
+						zoomType: 'xy'
+					};
+				}
+				drawChart();
+			})
+			$('#saveBt').on('click', function(){
+				var userData = allData[userIndex];
+				var name = $('#addSector').val();
+				if(AddDbclk == 0){
+					var length = userData.length;
+					var color = getRandomColor();
+					var y = 11-Number($('#Rank').val()), tmp = []; 
+					for(var i = 0; i < 10; i++){
+						if(i == y-1){
+							tmp.push(1);
+						}else{
+							tmp.push(0);
+						}
+					}
+					userData.push({
+						draggableX: false,
+						draggableY: false,
+						color: getRandomColor(),
+						name: name,
+						data: [],
+						rankCnt: tmp
+					});
+					userData[length].data.push({
+						x: length*10+1,
+						y: y,
+						Title: $('#Title').val(),
+						Description: $('#Description').val(),
+						Source: $('#Source').val(),
+						OccurenceDate:$('#OccurenceDate').val(),
+						Rank: $('#Rank').val(),
+						Sector: name,
+						Show_on_Target_Chart: $('#Show_on_Target_Chart').prop('checked'),
+						Show_on_timeline: $('#Show_on_timeline').prop('checked')
+					})
+				}else if(AddDbclk == 1){
+					seriesIndex = Number($('#Sector_type_factor').val());
+					var data = userData[seriesIndex],x,y = 11-Number($('#Rank').val());
+					data.rankCnt[y-1]++;
+					data.data.push({
+						x: 2+seriesIndex*10+data.rankCnt[y-1],
+						y: y,
+						Title: $('#Title').val(),
+						Description: $('#Description').val(),
+						Source: $('#Source').val(),
+						OccurenceDate:$('#OccurenceDate').val(),
+						Rank: Number($('#Rank').val()),
+						Sector: name,
+						Show_on_Target_Chart: $('#Show_on_Target_Chart').prop('checked'),
+						Show_on_timeline: $('#Show_on_timeline').prop('checked')
+					});
+					for(var i = 0; i < data.data.length; i++){
+						data.data.x = 2+seriesIndex*10+data.rankCnt[i];
+					}
+				}else {
+					var sectorVal = $('#Sector').val();
+					var data = userData[seriesIndex];
+					var y = 11-Number($('#Rank').val());
+					if(sectorVal != seriesIndex){
+						data.data.splice(valIndex, 1);
+						var sectorData = userData[sectorVal];
+						data.rankCnt[prevRank-1]--;
+						sectorData.rankCnt[y-1]++;
+						sectorData.data.push({
+							x: 2+sectorVal*10+sectorData.rankCnt[y-1],
+							y: y,
+							Title: $('#Title').val(),
+							Description: $('#Description').val(),
+							Source: $('#Source').val(),
+							OccurenceDate:$('#OccurenceDate').val(),
+							Rank: $('#Rank').val(),
+							Sector: name,
+							Show_on_Target_Chart: $('#Show_on_Target_Chart').prop('checked'),
+							Show_on_timeline: $('#Show_on_timeline').prop('checked')
+						});
+						for(var i = 0; i < sectorData.data.length; i++){
+							sectorData.data.x = 2+sectorVal*10+sectorData.rankCnt[i];
+						}
+					}else{
+						data.rankCnt[y-1]++;
+						data.rankCnt[prevRank-1]--;
+						data.data[valIndex].x = 2+seriesIndex*10+data.rankCnt[y-1];
+						data.data[valIndex].y = y;
+						data.data[valIndex].Title = $('#Title').val();
+						data.data[valIndex].Description = $('#Description').val();
+						data.data[valIndex].Source = $('#Source').val();
+						data.data[valIndex].OccurenceDate = $('#OccurenceDate').val();
+						data.data[valIndex].Rank = $('#Rank').val();
+						data.data[valIndex].Show_on_Target_Chart = $('#Show_on_Target_Chart').prop('checked');
+						data.data[valIndex].Show_on_timeline = $('#Show_on_timeline').prop('checked');
+					}
+					for(var i = 0; i < data.data.length; i++){
+						data.data.x = 2+seriesIndex*10+data.rankCnt[i];
+					}
+				}
+				makeAll();
+			});
+			$('#addBt').on('click', function(){
+				var name = $('#addSector').val();
+				if(name.length > 0){
+					AddDbclk = 0;
+					formatModal();
+					$('#Rank').val(10);
+					$('#SectorDiv').hide();
+					$('#deleteFactor').hide();
+				}else{
+					alert("You should input Sector Type Name!");
+				}
+			});
+			$('#removeBt').on('click', function(){
+				var i, j, val = Number($('#Sector_type').val());
+				var userData = allData[userIndex];
+				userData.splice(val, 1);
+				for(i = val; i < userData.length; i++){
+					var data = userData[i].data;
+					for(j = 0; j < data.length; j++){
+						data[j].x -= 10;
+						data[j].y --;
+					}
+				}
+				makeAll();
+			})
+		})
+	</script>
+</html>

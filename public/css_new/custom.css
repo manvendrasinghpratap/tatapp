@@ -1,0 +1,30 @@
+.overlay h3 a{color:#fff}
+
+.user-popup a.pswrd {float: left; background-color: #253992; color: #fff; padding: 6px 10px; font-size: 14px;border: none;margin: 0 5px 0 10px; border-radius:3px;}
+ .user-popup a.signout {float: left; background-color: #253992; color: #fff; padding: 6px 10px; font-size: 14px;border: none; border-radius:3px;margin: 0;}
+ .user .user-popup ul li {text-align: left;padding-left: 15px;}
+ .section {
+    position: relative;
+    padding: 40px 0;
+}
+.nav-bar li.teams a{
+	background: url(../images/team-icon.png) no-repeat top 3px left;
+}
+#modalBt{display:none}
+figcaption{margin:10px 0px}
+.spacer7{padding: 7px;}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+@media(min-width:771px) and (max-width:768px) {
+	
+	.nav-container .nav-bar ul li a {
+		display: block;
+		padding: 0 6px 10px 24px;
+		font-size: 12px;
+		color: #595f7a;
+		font-weight: 400;
+	}
+}

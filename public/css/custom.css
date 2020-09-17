@@ -1,0 +1,219 @@
+/*Custom_css*/
+.btn{transition: ease-in-out 0.5s; border-radius: 2px; text-transform: uppercase; font-size: 12px; font-weight: 700;}
+.boxes h4{
+	color: #aaaaaa;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px 0 15px 0;
+	font-size: 12px;
+	font-weight: 700;
+}
+.boxes h4 a{color: #aaaaaa;}
+.boxes h4 a:hover, .boxes.active h4 a{color: #70c468;}
+.boxes .well-sm{
+	min-height:134px;
+	display: block; text-align: center;
+	background: #e2e2e2;
+	color: #d0d0d0; 
+	cursor: pointer;
+	transition: ease-in-out 0.5s;
+	-webkit-transition: ease-in-out 0.5s;
+}
+.boxes .well-sm:hover, .boxes.active .well-sm{
+	background: #70c468;
+	color: #fff; 
+}
+.boxes .well-sm .fa{
+	font-size: 70px;
+	line-height: 120px;
+}
+.min-120{min-width: 120px;}
+.m_btm15{margin-bottom: 15px;}
+.m_top25{margin-top: 25px;}
+.m_rgt5{margin-right: 5px;}
+.btn-default{background: #838383; border-color: #838383; color: #fff; }
+.btn-info:active, .btn-info:focus{
+	background-color: #62b959;
+	border-color: #62b959;
+	box-shadow: none;
+}
+.btn-default:active, .btn-default:focus, .btn-default:hover{
+	background-color: #a0a0a0 !important;
+	border-color: #a0a0a0 !important;
+	box-shadow: none;
+	color: #fff !important;
+}
+tbody > tr > td{font-size: 15px; font-weight: 500;}
+.table-bordered > tbody > tr > th{font-size: 15px;
+color: #000; font-weight: 600;}
+.table .glyphicon{ float: right;
+font-size: 13px;
+margin: 5px 0 0 0;
+}
+/*Custom Check box and radio box*/
+.checkbox {
+  padding-left: 20px; }
+  .checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+    .checkbox label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+    .checkbox label::after {
+      display: inline-block;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      padding-top: 1px;
+      font-size: 11px;
+      color: #555555; }
+  .checkbox input[type="checkbox"] {
+    opacity: 0; }
+    .checkbox input[type="checkbox"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    .checkbox input[type="checkbox"]:checked + label::after {
+      font-family: 'FontAwesome';
+      content: "\f00c"; }
+.checkbox input[type="checkbox"]:checked + label::before {
+  background-color: #6a6260;
+  border-color: #6a6260; }
+.checkbox input[type="checkbox"]:checked + label::after {
+  color: #fff; }
+
+/*Radio css*/
+.radio {
+  padding-left: 20px; }
+  .radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+    .radio label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 50%;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out; }
+    .radio label::after {
+      display: inline-block;
+      position: absolute;
+      content: " ";
+      width: 11px;
+      height: 11px;
+      left: 3px;
+      top: 3px;
+      margin-left: -20px;
+      border-radius: 50%;
+      background-color: #555555;
+      -webkit-transform: scale(0, 0);
+      -ms-transform: scale(0, 0);
+      -o-transform: scale(0, 0);
+      transform: scale(0, 0);
+      -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+  .radio input[type="radio"] {
+    opacity: 0; }
+    .radio input[type="radio"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    .radio input[type="radio"]:checked + label::after {
+      -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+      -o-transform: scale(1, 1);
+      transform: scale(1, 1); }
+.radio input[type="radio"] + label::after {
+  background-color: #6a6260; }
+.radio input[type="radio"]:checked + label::before {
+  border-color: #6a6260; }
+.radio input[type="radio"]:checked + label::after {
+  background-color: #6a6260; }
+
+  .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.forum-ovt .row{ max-width: none; width: auto; margin-left: -15px; margin-right:-15px;}
+.forum-ovt #ajaxresp{ margin-left: 0px; margin-right:0px;  }
+.forum-ovt .forum-head > .column{ padding-top: 12px; padding-bottom: 12px; text-shadow: none; font-weight: 600;font-size: 14px; background:#86c580; border: none; }
+.forum-ovt .forum-topic a{ color:#62b959; }
+.ttl-in{color: #555;font-size: 18px;margin-bottom: 8px; }
+.null-data-hd span{ text-align: center; font-size:16px; }
+.forum-ovt .forum-topic a.tpc-ttl{ color:#f39c12; }
+.modal-backdrop.show{ opacity: 0.7; }
+.mdl-ipt-ovt .form-control{ border: 1px solid #ddd; }
+.forum-ovt .box-header.with-border .btn{ padding:11px 15px; font-size: 14px;}
+.tpc-rpli{ border-radius: 10px; -webkit-border-radius: 10px; -ms-border-radius: 10px; margin-bottom: 15px; padding:15px; background:#ecf8eb;  }
+.tpc-rpli .ttl-in .column{ padding:0px; background: none; }
+.tpc-rpli .box-footer{ display: inline-block; width: 100%; }
+.tpc-rpli .toggleview .column{ background: none; border: none; text-align: left;  }
+.tpc-rpli .toggleview .forum-topic > .column:first-child{ text-align: left; }
+.msg-sbjct{ color: #449b3b; font-size:26px; }
+.msg-crt{ font-size: 14px; }
+.msg-pstd{ font-size: 14px; }
+.msgttl-in { color: #51bf4a; font-size: 26px; margin-bottom: 8px;}
+.pst-rpli-link{ text-align: right; margin-bottom: 10px; }
+.pst-rpli-link .btn{ max-width: 120px; font-size: 14px; padding: 10px 14px; text-align: center;}
+.reply-form-bx { margin-bottom: 20px; border-radius: 10px;
+    -webkit-border-radius: 10px; -ms-border-radius: 10px; padding: 20px;
+    background: #dff3de; max-width: 700px;  margin-left: auto; margin-right: auto;}
+.pst-a-rpl{ font-weight: 600; color: #51bf4a; padding-bottom: 10px; font-size:20px; border-bottom: 1px solid #ddd; margin: 0px; margin-bottom: 25px; }    
+.reply-form-bx .form-control{ resize: none; }
+.btn-rpli .btn{ font-size:14px; padding: 10px 30px; }
+.msg-quoto{ cursor: pointer; position: absolute; right: 5px; top: 0px; font-size:20px; }
+.msg-sbjct{ position: relative; padding-right: 30px; }
+
+#ajaxresp .row .col-lg-3 { height:130px;}
+#ajaxresp .row .col-lg-3 a { cursor:pointer;display:block;height:80px;overflow:hidden;margin-bottom:5px;border:4px solid #ffffff;}
+#ajaxresp .row .col-lg-3 a.active { border-color:#3c8dbc;} 
+#ajaxresp .row .col-lg-3 a img { width:100%;}
+#ajaxresp .row .col-lg-3 p { font-size:12px;font-weight:normal;}
+.gravitor .edit { position:relative;}
+.gravitor .edit .fa { position:absolute;padding:4px;right:1px;top:1px;background-color:#fff;}
+
+#galleryDiv .col-sm-4 img { width:100%;}
+#galleryDiv .col-sm-8 { margin-bottom:10px;}
+#galleryDiv .col-sm-8 input[type="text"]{ width:100%;padding:6px;}.btn-app {    padding: 5px 5px !important;    height: inherit;}

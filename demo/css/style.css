@@ -1,0 +1,109 @@
+#container{
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+}	
+#modalBt{
+  display: none;
+}
+#panel{
+  margin: 30px 30px;
+}
+.panelDiv{
+  margin-top:10px;
+}
+.inner-div{
+  float:left;
+  width:50%;
+}
+#userPanel{
+  margin:10px 10px;
+}
+#users{
+  margin:10px 10px;
+}
+#users .active{
+  color:red;
+}
+#chartPanel,
+#timeline{
+  border: 1px solid black;
+  width:90%;
+  margin-left:5%;
+}
+#timeline{
+  margin-top:30px;
+}
+.custom_dropdown{
+	width: 155px;
+	border: 1px solid #8c8787;
+	
+}
+.custom_dropdown span{
+	width: 100%;
+	display: block;
+	padding: 0 10px;
+}
+.dropbtn:hover, .dropbtn:focus{background-color: #fff !important;}
+.custom_dropdown .btn {color: #fff;}
+.custom_dropdown .btn-info span{
+    display: inline-block;
+    width: auto;
+	padding: 0 0px;
+}
+.custom_dropdown .btn-info:hover{background-color: #31b0d5;
+border-color: #269abc; }
+.custom_dropdown:after{
+	content:"\e114";
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	font-size: 10px;
+	color: #838383;
+}
+.custom_dropdown.open_option:after, .custom_dropdown.open_option:after{
+	content:"\e113" !important;
+}
+
+/* Added by subhendu on dated 15-05-2018 */
+#add-sector {
+    z-index: 1080 !important;
+}
+    .inner-div { width:40%;}
+    .inner-div + .inner-div { width:60%;}
+
+    
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+   padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}

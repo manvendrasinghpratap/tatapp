@@ -1,0 +1,170 @@
+@extends('layout.backened.header') @section('content')
+<?php
+//dd($data['caseList']);
+//dd($data);
+//if (!$data['caseList']->isEmpty()) echo 'not';
+?>
+<div class="table-section-main">
+	<div class="container">
+	<div class="images-table-container">
+			<?php //if(!empty($data['caseList'])) if (!$data['caseList']->isEmpty()) {?>
+				<div class="left-section">
+					<ul>
+						<?php foreach (@$data['caseList'] as $key => $row) { ?>
+							<li>
+								<div class="image-box">
+									@if(@$row->default_pic!='')
+										<img src="{{get_image_url(@$row->default_pic,'package')}}"  style="height:120px;">
+									@else
+										<img src="{{asset('images/gravitor.jpg')}}"  style="height:120px;">
+										
+									@endif
+									
+									<div class="overlay">
+										<h3><a href="{{route('admin-viewCase',['id'=>$row->id])}}" ><?php echo substr($row->title, 0,30); ?></a></h3>
+									</div>
+								</div>
+							</li>
+						<?php } ?>
+						
+					</ul>
+				</div>
+			<?php //}
+
+                            $user_role_name = Session::get('user_role_name');
+
+                            if ($user_role_name!="superAdmin")
+                            {
+                            ?>
+				<div class="right-section">
+					<div class="task-table-wrapper ">
+						<table id="task-table1" class="dashboard-table table table-striped table-bordered nowrap" style="width:100%">
+							<thead>
+								<tr>
+									<th  class="col-sm-1" >Tasks</th>
+									<th class="col-sm-3" >Case</th>
+									<th  class="col-sm-1">Status</th>
+									<th  class="col-sm-1">Due Date</th>
+								   
+								</tr>
+							</thead>
+							<tbody>
+
+									@if(count($data['getAllAssignedTaskByUserId'])>0)
+									@foreach($data['getAllAssignedTaskByUserId'] as $row)   
+												  
+									<tr>
+									   
+										<td><?php echo $row->title; ?></td>
+										<td><?php echo $row->case_title; ?></td>
+										<td><?php echo getStatusTitle($row->status); ?></td>
+										
+										<td >
+										
+											<?php echo date("F j, Y", strtotime($row->due_date)); ?>
+										
+										
+									</td>
+									   
+														
+										
+									</tr>
+												  @endforeach
+												 
+												
+									 
+								   @else
+								<tr class="bg-info">
+									<td colspan="4">Record(s) not found.</td>
+								</tr>
+								@endif
+								</tbody>
+       
+						</table>
+					</div>
+				</div>
+				<?php } ?>
+				
+			</div>
+	<!-- /.box-header -->
+    <div class="reports-table">
+				 <div class="row">
+            <div class="col-sm-12 m_top25">
+            <?php 
+            $allowRolesList = array("agencySuperAdmin", "agencyAdmin");
+            $user_role_name = Session::get('user_role_name');
+            if (in_array($user_role_name, $allowRolesList))
+            {
+            ?>
+            <a href="{{route('admin-addCase')}}" class="btn btn-info min-120 m_btm15 m_rgt5"><i class="fa fa-plus"></i> New Case</a>
+            
+            <a href="{{route('admin-caseList')}}" class="btn btn-default min-120 m_btm15">All Cases</a>
+            <?php } ?>
+            </div>  
+       </div>
+       <div class="spacer7"></div>
+				<div class="task-table-wrapper">
+					<table id="report-table" class="dashboard-table table table-striped table-bordered nowrap" style="width:100%">
+						<thead>
+							 <tr>
+                               <!-- <th>Sr.No.</th> -->
+                                <th >{{_i('Title')}}</th>
+                               <?php
+                                if ($user_role_name=="superAdmin")
+                                {
+                                ?>
+                                <th>Account</th>
+                                <?php } ?>
+                                <th>Name</th>
+                                <th>{{_i('Email Address')}}</th>
+                                <th>{{_i('Phone No.')}}</th>
+                                <th>{{_i('Created Date')}}</th>
+                                
+                            </tr>
+						</thead>
+						<tbody>
+							 @if(count($data['records'])>0)
+                            <?php $k = ($pageNo == 1) ? $pageNo : (($pageNo - 1) * $record_per_page) + 1; ?>
+                            @foreach($data['records'] as $row)
+                            <tr>
+                               <!-- <td scope="row">{{$k}}</td>-->
+								 <td><a target="_blank"  href="{{route('admin-viewReport',['id'=>$row->id])}}">{{wordwrap($row->title, 15, "\n", true)}} </a></td>
+                               
+                                <?php
+                                if ($user_role_name=="superAdmin")
+                                {
+                                ?>
+                                <td>{{wordwrap($row->account_name, 15, "\n", true)}}</td> 
+                                <?php } ?>
+                                <td>{{wordwrap($row->name, 15, "\n", true)}}</td>
+                                <td>{{wordwrap($row->email_address, 15, "\n", true)}}</td>
+                                <td>{{wordwrap($row->phone_no, 15, "\n", true)}}</td>
+
+                                
+                                <td>
+                                    {{date("F j, Y", strtotime($row->created_at))}}
+
+                                </td>
+                                
+                            </tr>
+								 <?php $k++; ?>     
+								@endforeach
+								@else
+								
+								@endif
+						</tbody>
+					</table>
+					 <div class="box-footer clearfix">
+                        <ul class="pagination pagination-sm no-margin pull-right">
+                            {!! $data['records']->links() !!}
+                        </ul>
+                    </div>
+				</div>
+			</div>
+			
+			
+			 	
+	</div>
+</div>
+
+@endsection

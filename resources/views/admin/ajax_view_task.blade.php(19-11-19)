@@ -1,0 +1,245 @@
+<?php 
+
+//echo $data['caseList']->account_id;
+//dd($data); 
+//dd($data['sectorListByAccount']);
+
+ //dd($data['getAllSectorByCaseId']);
+                         
+?>
+<!-- START Datatable -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
+<!-- END Datatable -->
+<link rel="stylesheet" href="{{asset('css/popupModal.css')}}">
+
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+
+<!-- Start Datatable -->
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<!-- End Datatable -->
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<!-- End Datatable -->
+<script type="text/javascript">
+    $( document ).ready(function() {
+    
+      $.validator.addMethod('filesize', function(value, element, param) {
+        return this.optional(element) || (element.files[0].size <= param)
+      });
+         
+      $.validator.addMethod("alphanumspecial", function (value, element) {
+    return this.optional(element) || /^(?=.*[a-z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{6,})/i.test(value);
+      }, "Combination of alphabets,special characters & numeric values required.");
+        $('#modalform').validate({
+            ignore: ".ignore",
+            rules: {
+                
+                title:'required',
+                description:'required',
+                status:'required',
+                task_assigned:'required',
+				case_id:'required',
+                due_date:'required',
+
+                
+
+              
+            },
+            // Specify validation error messages
+            messages: {
+              
+                
+                title: "Please enter title.",
+                description: "Please give the task details.",
+                status: "Please select status from the list.",
+                task_assigned: "Please assign the task from the user list.",
+				case_id: "Please assign the task from the case list.",
+                due_date : "Please assign due date."
+                
+                
+            },
+            // Make sure the form is submitted to the destination defined
+    // in the "action" attribute of the form when valid
+    submitHandler: function(form) {
+      
+
+             
+                    var sdata = $("#modalform").serialize();
+
+                    $.ajax({
+                    type: "POST",
+                    headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    url: "{{route('admin-ajax-save-task')}}",
+                    dataType: 'html',
+                    data:sdata,
+                    success: function (response) {
+                    //result=html.split('#');
+                    //$('#ajaxresp').html(response);
+                    $('#myModal').modal('hide');
+                     location.reload();
+
+                       }
+                    });
+
+    }
+
+        });
+    });
+  
+</script>
+
+
+<!-- Trigger the modal with a button -->
+        
+    
+        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+                <form name="modalform" id="modalform" method="post" action="">
+                <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" id="customclose">&times;</button>
+                <h4 class="modal-title">Manage Task</h4>
+                </div>
+               
+                <div class="modal-body">
+
+
+
+                    <div class="inner-div">
+                      
+                        <input type="hidden" name="token" id="token" value="">
+						<?php if(isset($data['caseList']->id) && !empty($data['caseList']->id)){ ?>
+                        <input type="hidden" name="account_id" value="<?php echo $data['caseList']->account_id; ?>">
+                        <input type="hidden" name="user_id" value="<?php echo $data['caseList']->user_id; ?>">
+                        <input type="hidden" name="case_id" value="<?php echo $data['caseList']->id; ?>">
+						<?php }else{?>						
+                        <input type="hidden" name="account_id" value="<?php echo $data['caseList']['account_id']; ?>">
+						<?php }?>		
+                        <input type="hidden" name="task_id" id="task_id" class="taskClass" value="">
+                        <input type="text" id="title" name="title" placeholder="Title" style="border:1px solid black;"/><br/><br/>
+                        <textarea rows="5" cols="20" type="text" id="description" name="description" placeholder="Description"/></textarea><br/>
+                    </div>
+                    <div class="inner-div">
+                       <div>
+                            Status:
+                            <select name="status" class="form-control" id="status">
+                                            <option value="">Select</option>
+                                            <option @if(@$data->status=='new') {{'selected'}} @endif value="new">{{_i('New')}}</option>
+                                            <option @if(@$data->status=='assigned') {{'selected'}} @endif value="assigned">{{_i('Assigned')}}</option>
+                                            <option @if(@$data->status=='in_progress') {{'selected'}} @endif value="in_progress">{{_i('In Progress')}}</option>
+
+                                           
+                                            <option @if(@$data->status=='delayed') {{'selected'}} @endif value="delayed">{{_i('Delayed')}}</option>
+                                            <option @if(@$data->status=='closed') {{'selected'}} @endif value="closed">{{_i('Closed')}}</option>
+                                        </select>
+                        </div>
+                       
+                    <br/>    
+ <div id="SectorDiv">
+                            Assign to: 
+            <select name="task_assigned" class="form-control" id="task_assigned">
+                            <option value="">Select</option>
+
+                            @if(count($userList)>0)
+                            @foreach($userList as $row) 
+                            <?php 
+$selectedClass = (isset($data->case_owner_id) && $data->case_owner_id==$row->id)?'selected':'';
+                            ?>  
+                            <option value="<?php echo $row->id; ?>" <?php echo $selectedClass; ?>><?php echo $row->first_name.' '.$row->last_name; ?></option>
+                          @endforeach
+                          @else
+
+                          @endif
+
+                          </select>
+
+            </div>
+			<?php if(!isset($data['caseList']->id)){ ?><br/>
+			<div id="CaseDiv">
+                            Case to: 
+            <select name="case_id" class="form-control" id="case_id">
+                            <option value="">Select</option>
+
+                           
+                            @foreach($data['caseLists'] as $row) 
+                            <?php 
+$selectedClass = (isset($data['caseList']->id) && $data['caseList']->id==$row->id)?'selected':'';
+                            ?>  
+                            <option value="<?php echo $row->id; ?>" <?php echo $selectedClass; ?>><?php echo $row->title; ?></option>
+                          @endforeach
+
+                        
+
+                          </select>
+
+            </div>
+			<?php }?>
+      <br/><br/>
+
+                        Due Date: <input type="date" id="due_date" name="due_date"/><br/><br/>
+                       
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-primary" id="deleteTask">Delete Task</button>
+                    <button type="button" class="btn btn-primary" id="saveTask">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+        </form>  
+    
+
+                </div>
+            </div>
+        </div>
+
+<!--   New Block -->
+<script type="text/javascript">
+   
+    $('#saveTask').on('click', function(){
+
+            $('#modalform').submit();     
+    });
+
+    $('#deleteTask').on('click', function(){
+
+        var task_id = $('.taskClass').val();
+
+
+        var r = confirm("Are you sure you want to delete ?");
+        if (r == true) {
+            $.ajax({
+                    type: "POST",
+                    headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                    },
+                    url: "{{route('admin-ajaxDeleteTask')}}",
+                    dataType: 'html',
+                    data: {
+                      token : $('meta[name="csrf-token"]').attr('content'), 
+                      task_id:task_id},
+                    success: function (html) {
+                    $('#myModal').modal('hide');
+                     location.reload();
+                       }
+                    });
+          } 
+                    
+    });
+
+
+    
+
+
+
+
+
+</script>
+   

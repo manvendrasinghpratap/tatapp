@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><link type="text/css" rel="stylesheet" href="Veloh_files/css_002.css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Veloh</title>
+
+<link href="Veloh_files/css.css" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="Veloh_files/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="Veloh_files/jquery.css">
+ <link rel="stylesheet" href="Veloh_files/market-form.css">
+ <link href="Veloh_files/select2.css" rel="stylesheet">
+ <link rel="stylesheet" href="Veloh_files/master.css">
+ <link rel="stylesheet" href="Veloh_files/media.css">
+<link rel="stylesheet" href="Veloh_files/font-awesome.css">
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" src="Veloh_files/a.json"></script><script async="" src="Veloh_files/get_counts.json"></script><script async="" src="Veloh_files/5a0d5debdaf39500128e17e1.js"></script><script id="facebook-jssdk" src="Veloh_files/sdk.js"></script><script type="text/javascript" async="" src="Veloh_files/recaptcha__en.js"></script><script src="Veloh_files/platform.js" async="" defer="defer" gapi_processed="true"></script>
+<script src="Veloh_files/api.js"></script>
+<style>
+    #st-1.st-has-labels .st-btn{
+        min-width: 80px !important;
+    }
+</style>
+<script type="text/javascript" charset="UTF-8" src="Veloh_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="Veloh_files/map.js"></script><script type="text/javascript" charset="UTF-8" src="Veloh_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="Veloh_files/marker.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="Veloh_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="Veloh_files/controls.js"></script><script type="text/javascript" charset="UTF-8" src="Veloh_files/vt"></script><script type="text/javascript" charset="UTF-8" src="Veloh_files/stats.js"></script><style type="text/css">#st-1 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  direction: ltr;
+  display: block;
+  opacity: 1;
+  text-align: center;
+  z-index: 94034;
+}
+#st-1.st-animated {
+  -moz-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -ms-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -o-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -webkit-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in;
+}
+#st-1.st-hidden {
+  opacity: 0;
+}
+#st-1 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: opacity 0.2s ease-in, top 0.2s ease-in; -ms-transition: opacity 0.2s ease-in, top 0.2s ease-in; -o-transition: opacity 0.2s ease-in, top 0.2s ease-in; -webkit-transition: opacity 0.2s ease-in, top 0.2s ease-in; transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  -moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  margin-right: 8px;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+#st-1 .st-btn:last-child {
+  margin-right: 0;
+}
+#st-1 .st-btn > svg {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+#st-1 .st-btn > img {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+#st-1 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  min-width: 75px;
+  opacity: 1;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+}
+#st-1.st-has-labels .st-btn {
+  min-width: 150px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label {
+  min-width: 50px;
+}
+#st-1.st-has-labels .st-btn.st-remove-label > span {
+  display: none;
+}
+#st-1.st-has-labels .st-btn.st-hide-label > span {
+  display: none;
+}
+#st-1 .st-total {
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0;
+  max-width: 80px;
+  padding: 4px 8px;
+  text-align: center;
+}
+#st-1 .st-total.st-hidden {
+  display: none;
+}
+#st-1 .st-total > span {
+  font-size: 24px;
+  line-height: 26px;
+  display: block;
+  padding: 0;
+}
+#st-1 .st-total > span.st-shares {
+  font-size: 14px;
+  line-height: 14px;
+}
+#st-1.st-justified {
+  display: flex;
+  text-align: center;
+}
+#st-1.st-justified .st-btn {
+  -moz-flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+flex: 1;
+}#st-1 .st-btn:hover {
+  opacity: .8;
+  top: -4px;
+}#st-1 .st-btn[data-network='facebook'] {
+  background-color: #3B5998;
+}
+#st-1 .st-btn[data-network='twitter'] {
+  background-color: #55acee;
+}
+#st-1 .st-btn[data-network='googleplus'] {
+  background-color: #dc4e41;
+}
+#st-1 .st-btn[data-network='pinterest'] {
+  background-color: #CB2027;
+}</style><style type="text/css">#st-3 {
+  font-family: "Helvetica Neue", Verdana, Helvetica, Arial, sans-serif;;
+  direction: ltr;
+  display: block;
+  opacity: 1;
+  text-align: center;
+  z-index: 94034;
+}
+#st-3.st-animated {
+  -moz-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -ms-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -o-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; -webkit-transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in; transition: o 0.2s ease-in, p 0.2s ease-in, a 0.2s ease-in, c 0.2s ease-in, i 0.2s ease-in, t 0.2s ease-in, y 0.2s ease-in;
+}
+#st-3.st-hidden {
+  opacity: 0;
+}
+#st-3 .st-btn {
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+  -moz-transition: opacity 0.2s ease-in, top 0.2s ease-in; -ms-transition: opacity 0.2s ease-in, top 0.2s ease-in; -o-transition: opacity 0.2s ease-in, top 0.2s ease-in; -webkit-transition: opacity 0.2s ease-in, top 0.2s ease-in; transition: opacity 0.2s ease-in, top 0.2s ease-in;
+  -moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  margin-right: 8px;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+#st-3 .st-btn:last-child {
+  margin-right: 0;
+}
+#st-3 .st-btn > svg {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+#st-3 .st-btn > img {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+#st-3 .st-btn > span {
+  -moz-transition: all 0.2s ease-in; -ms-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; -webkit-transition: all 0.2s ease-in; transition: all 0.2s ease-in;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  min-width: 75px;
+  opacity: 1;
+  padding: 0 6px;
+  position: relative;
+  vertical-align: top;
+}
+#st-3.st-has-labels .st-btn {
+  min-width: 150px;
+}
+#st-3.st-has-labels .st-btn.st-remove-label {
+  min-width: 50px;
+}
+#st-3.st-has-labels .st-btn.st-remove-label > span {
+  display: none;
+}
+#st-3.st-has-labels .st-btn.st-hide-label > span {
+  display: none;
+}
+#st-3 .st-total {
+  color: #555;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 0;
+  max-width: 80px;
+  padding: 4px 8px;
+  text-align: center;
+}
+#st-3 .st-total.st-hidden {
+  display: none;
+}
+#st-3 .st-total > span {
+  font-size: 24px;
+  line-height: 26px;
+  display: block;
+  padding: 0;
+}
+#st-3 .st-total > span.st-shares {
+  font-size: 14px;
+  line-height: 14px;
+}
+#st-3.st-justified {
+  display: flex;
+  text-align: center;
+}
+#st-3.st-justified .st-btn {
+  -moz-flex: 1;
+-ms-flex: 1;
+-webkit-flex: 1;
+flex: 1;
+}#st-3 .st-btn:hover {
+  opacity: .8;
+  top: -4px;
+}#st-3 .st-btn[data-network='facebook'] {
+  background-color: #3B5998;
+}
+#st-3 .st-btn[data-network='twitter'] {
+  background-color: #55acee;
+}
+#st-3 .st-btn[data-network='googleplus'] {
+  background-color: #dc4e41;
+}
+#st-3 .st-btn[data-network='pinterest'] {
+  background-color: #CB2027;
+}</style><script type="text/javascript" charset="UTF-8" src="Veloh_files/AuthenticationService.Authenticate"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{height:100%;overflow:hidden;position:fixed;width:100%}.fb_shrink_active{opacity:1;transform:scale(1, 1);transition-duration:200ms;transition-timing-function:ease-out}.fb_shrink_active:active{opacity:.5;transform:scale(.75, .75)}</style><script type="text/javascript" charset="UTF-8" src="Veloh_files/QuotaService.RecordEvent"></script></head>
+<body class="main-bg">
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.11'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript" src="Veloh_files/sharethis.js" async="async"></script>
+    <div class="main-wrap">
+	<div class="container">
+        <!-- BANNER -->
+        <div class="banner-wrap      ">
+
+
+
+            <div class="banner" style="background-image:url(http://127.0.0.1/assets/img/Fahrrad-Occasion-Zuerich.jpg)">
+                <div class="pull-right" style="margin-right: 2%;">
+                        <h3><a style="color: #fff;" href="http://127.0.0.1/login">Login</a></h3>
+                    </div>
+                <div class="banner-content">
+                    
+                    <h1>Velo.</h1><h1>Börse.</h1><h1>Zürich</h1>                    <p></p>
+                </div>
+                <ul class="psocial-links">
+                 <!-- <div class="fb-share-button" data-href="http://veloh.ch/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fveloh.ch%2F&amp;src=sdkpreparse">Share</a></div>
+                  <!--<g:plusone></g:plusone>
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet">
+Tweet</a>
+                  <div class="g-plus" data-action="share" data-href="http://veloh.ch/"></div>
+                    <li><a class="fb-icon" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twt-icon" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="gm-icon" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a class="insta-icon" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                    <li><a class="pin-icon" href="https://in.pinterest.com/"><i class="fa fa-pinterest-p"></i></a></li>-->
+                    <div class="social-outer-main">
+                    <div class="sharethis-inline-share-buttons st-inline-share-buttons  st-center st-animated" id="st-1"><div class="st-total st-hidden">
+  <span class="st-label"></span>
+  <span class="st-shares">
+    Shares
+  </span>
+</div><div class="st-btn st-first st-remove-label" data-network="facebook" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m21.7 16.7h5v5h-5v11.6h-5v-11.6h-5v-5h5v-2.1c0-2 0.6-4.5 1.8-5.9 1.3-1.3 2.8-2 4.7-2h3.5v5h-3.5c-0.9 0-1.5 0.6-1.5 1.5v3.5z"></path>
+  </g>
+</svg>
+  
+</div><div class="st-btn st-remove-label" data-network="twitter" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m31.5 11.7c1.3-0.8 2.2-2 2.7-3.4-1.4 0.7-2.7 1.2-4 1.4-1.1-1.2-2.6-1.9-4.4-1.9-1.7 0-3.2 0.6-4.4 1.8-1.2 1.2-1.8 2.7-1.8 4.4 0 0.5 0.1 0.9 0.2 1.3-5.1-0.1-9.4-2.3-12.7-6.4-0.6 1-0.9 2.1-0.9 3.1 0 2.2 1 3.9 2.8 5.2-1.1-0.1-2-0.4-2.8-0.8 0 1.5 0.5 2.8 1.4 4 0.9 1.1 2.1 1.8 3.5 2.1-0.5 0.1-1 0.2-1.6 0.2-0.5 0-0.9 0-1.1-0.1 0.4 1.2 1.1 2.3 2.1 3 1.1 0.8 2.3 1.2 3.6 1.3-2.2 1.7-4.7 2.6-7.6 2.6-0.7 0-1.2 0-1.5-0.1 2.8 1.9 6 2.8 9.5 2.8 3.5 0 6.7-0.9 9.4-2.7 2.8-1.8 4.8-4.1 6.1-6.7 1.3-2.6 1.9-5.3 1.9-8.1v-0.8c1.3-0.9 2.3-2 3.1-3.2-1.1 0.5-2.3 0.8-3.5 1z"></path>
+  </g>
+</svg>
+  
+</div><div class="st-btn st-remove-label" data-network="googleplus" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m25.2 20.3q0 3.6-1.6 6.5t-4.3 4.4-6.5 1.6q-2.6 0-5-1t-4.1-2.7-2.7-4.1-1-5 1-5 2.7-4.1 4.1-2.7 5-1q5 0 8.6 3.3l-3.5 3.4q-2-2-5.1-2-2.1 0-4 1.1t-2.8 2.9-1.1 4.1 1.1 4.1 2.8 2.9 4 1.1q1.5 0 2.7-0.4t2-1 1.4-1.4 0.8-1.4 0.4-1.3h-7.3v-4.4h12.1q0.3 1.1 0.3 2.1z m15.1-2.1v3.6h-3.6v3.7h-3.7v-3.7h-3.7v-3.6h3.7v-3.7h3.7v3.7h3.6z"></path>
+  </g>
+</svg>
+  
+</div><div class="st-btn st-last st-remove-label" data-network="pinterest" style="display: none;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m37.3 20q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3q-2.4 0-4.8-0.7 1.3-2 1.7-3.6 0.2-0.8 1.2-4.7 0.5 0.8 1.7 1.5t2.5 0.6q2.7 0 4.8-1.5t3.3-4.2 1.2-6.1q0-2.5-1.4-4.7t-3.8-3.7-5.7-1.4q-2.4 0-4.4 0.7t-3.4 1.7-2.5 2.4-1.5 2.9-0.4 3q0 2.4 0.8 4.1t2.7 2.5q0.6 0.3 0.8-0.5 0.1-0.1 0.2-0.6t0.2-0.7q0.1-0.5-0.3-1-1.1-1.3-1.1-3.3 0-3.4 2.3-5.8t6.1-2.5q3.4 0 5.3 1.9t1.9 4.7q0 3.8-1.6 6.5t-3.9 2.6q-1.3 0-2.2-0.9t-0.5-2.4q0.2-0.8 0.6-2.1t0.7-2.3 0.2-1.6q0-1.2-0.6-1.9t-1.7-0.7q-1.4 0-2.3 1.2t-1 3.2q0 1.6 0.6 2.7l-2.2 9.4q-0.4 1.5-0.3 3.9-4.6-2-7.5-6.3t-2.8-9.4q0-4.7 2.3-8.6t6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"></path>
+  </g>
+</svg>
+  
+</div></div>
+                    <div class="insta-single-icon"><a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                    </div>
+
+                </ul>
+                <div class="newsletter-wrp">
+                    <input class="input-control" placeholder="Velobörsen per E-mail" type="text">
+                    <input value="Go!" class="bttn" type="submit">
+                </div>
+            </div>
+        </div>
+        <!-- /BANNER -->
+        <!-- HEADER -->
+      <header class="header">
+            <div class="navbx-wrp">
+                <div class="navbar-hd">     
+                    <a href="javascript:void(0);">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+               
+
+               <nav class="navlist nav-desktp">
+                    <ul class="navul">
+                        <li>
+                            <h4>
+                                <a href="http://127.0.0.1/bicycle-market-dates">Alle Velobörsen</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/home">Home</a>
+                           </p>
+                            
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="http://127.0.0.1/veloboerse-zurich/26">Zürich</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/bicycle-market-dates">Velobörsen Daten</a>
+                           </p>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="http://127.0.0.1/veloboerse-basel/26">Basel</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/publish-bike-sale">Börse eintragen</a>
+                           </p>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="javascript:void(0);">Bern</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/sellbycycle">Velo verkaufen</a>
+                           </p>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="http://127.0.0.1/sellbycycle">Luzern</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/sellbycycle">Velo Kauftipps</a>
+                           </p>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="javascript:void(0);">Olten</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/Velo-recycling">Velo schenken</a>
+                           </p>
+                        </li>
+                       
+                        <li>
+                            <h4>
+                                <a href="javascript:void(0);">Biel</a></h4>
+                           <p>
+                                <a href="http://127.0.0.1/about-veloboersen">About</a>
+                           </p>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="javascript:void(0);">Winterthur</a></h4>
+                           <p>
+                                <a href="javascript:void(0);">%% Velo Outlet %%</a>
+                           </p>
+                        </li>
+                        <li>
+                            <h4>
+                                <a href="http://www.velomaerkte.ch/">Online-Velobörse</a></h4>
+                           <p>
+                                <a href="http://www.velomaerkte.ch/">Bike Repatur Tipps</a>
+                           </p>
+                        </li>
+                    </ul>
+            </nav>
+
+<nav class="navlist mobile-menu">
+  <ul class="navul">
+    <li>
+      <p>
+        <a href="http://127.0.0.1/home">Home</a>
+      </p>
+      
+    </li>
+    <li>
+      <p>
+        <a href="http://127.0.0.1/bicycle-market-dates">Velobörsen Daten</a>
+      </p>
+    </li>
+    <li>
+      
+      <p>
+        <a href="http://127.0.0.1/publish-bike-sale">Börse eintragen</a>
+      </p>
+    </li>
+    <li>
+      
+      <p>
+        <a href="http://127.0.0.1/sellbycycle">Velo verkaufen</a>
+      </p>
+    </li>
+    <li>
+      
+      <p>
+        <a href="http://127.0.0.1/sellbycycle">Velo Kauftipps</a>
+      </p>
+    </li>
+    <li>
+      
+      <p>
+        <a href="http://127.0.0.1/Velo-recycling">Velo schenken</a>
+      </p>
+    </li>
+    
+    <li>
+      
+      <p>
+        <a href="http://127.0.0.1/about-veloboersen">About</a>
+      </p>
+    </li>
+    <li>
+      
+      <p>
+        <a href="javascript:void(0);">%% Velo Outlet %%</a>
+      </p>
+    </li>
+    <li>
+      
+      <p>
+        <a href="http://www.velomaerkte.ch/">Bike Repatur Tipps</a>
+      </p>
+    </li>
+    <li>
+      <h4>
+      <a href="http://127.0.0.1/bicycle-market-dates">Alle Velobörsen</a></h4>
+      
+    </li>
+    <li>
+      <h4>
+      <a href="">Zürich</a></h4>
+      
+    </li>
+    <li>
+      <h4>
+      <a href="">Basel</a></h4>
+      
+    </li>
+    <li>
+      <h4>
+      <a href="javascript:void(0);">Bern</a></h4>
+      
+    </li>
+    <li>
+      <h4>
+      <a href="http://127.0.0.1/sellbycycle">Luzern</a></h4>
+      
+    </li>
+    <li>
+      <h4>
+      <a href="javascript:void(0);">Olten</a></h4>
+      
+    </li>
+    
+    <li>
+      <h4>
+      <a href="javascript:void(0);">Biel</a></h4>
+      
+    </li>
+    <li>
+      <h4>
+      <a href="javascript:void(0);">Winterthur</a></h4>
+      
+    </li>
+    <li><h4><a href="http://www.velomaerkte.ch/">Online-Velobörse</a></h4></li>
+  </ul>
+</nav>            </div>  
+        </header>
+        <!-- /HEADER -->
+        <!-- CONTENT -->
+           <section>
+                <div class="flex-wrap gd-txt-wrp">
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <div class="gd-txt">
+                                        <h1>
+                                            Bicycle Exchange Zurich 
+                                        </h1>
+                                        <h1>Next date: <br>
+                                        22.05.2017 <br><br> See all
+                                        </h1>
+                                    </div>                               
+                                </div>
+                            </div> 
+                         </a>                  
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/bikebillig.jpg" alt="bike billig">                                
+                                </div>
+                            </div>  
+                        </a>                 
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <div class="gd-txt gd-txt-2 gd-txt-grn">
+                                        <h2 class="frline-txt">
+                                           bicycle market Zurich:<br> how exactly does it work?
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div> 
+                        </a>                  
+                    </div>
+                    <!-- /REPEAT GRID  -->               
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/velo_zustand.jpg" alt="velo_zustand">
+                                </div>
+                            </div>     
+                        </a>              
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <div class="display-table gd-ct-wp txt-vtop">
+                            <div class="display-cell">
+                                <div class="gd-txt gd-txt-h1 gd-txt-para">
+                                    <h4>
+                                        Used bikes: Nowhere as many markets as in Zurich
+                                    </h4>
+                                    <p>When it comes to cycling, Zurich 
+is a lonely top seller: Secondhand bikes are sold six times a season on 
+Helvetiaplatz, plus two other stores in Wollishofen and Oerlikon. The 
+bike exchange on Helvetiaplatz is one of the largest in Switzerland with
+ around 1300 bicycles - although not only second-hand bikes are 
+represented. Behind the events is the very dedicated <a href="javascript:void(0);">Pro Velo Zurich</a>, for whose benefit the sales commissions are usefully going.</p>
+                                    <p>
+                                        Test drives are possible in a 
+side street against the delivery of a document of identification. An 
+early visit is rewarded due to the high demand - around 60% of the 
+bicycles are usually new owners. Compared to other stock exchanges, the 
+queues in front of the cash register are long at peak hours (cash can 
+only be paid). Noticeably active on the bike exchange on the 
+Helvetiaplatz are also the numerous dealers who present their bikes 
+sometimes a little intrusive - the atmosphere is a little less relaxed 
+than elsewhere. Nevertheless, a visit is worthwhile!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/gebrauchte_velos.jpg" alt="gebrauchte velos">
+                                </div>
+                            </div>  
+                        </a>                 
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    
+                    
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <div class="display-table gd-ct-wp">
+                                <div class="display-cell lnnwsbg">
+                                     <div class="mark-list-wrp">
+                                        <div class="mark-tag-wrp">
+                                            <div class="mark-tag">
+                                                <h1> dates of used bike markets Zurich</h1>
+                                                                       <a href="javascript:void(0);" onclick="sort(6)" style="background:  #3bd659;color:#fff" class="wt-bg">900-2000</a>
+                                        <a href="javascript:void(0);" onclick="sort(5)" style="background:  #bb0000;color:#fff" class="wt-bg">1000-1500</a>
+                                        <a href="javascript:void(0);" onclick="sort(4)" style="background:  #ee9900;color:#fff" class="wt-bg">600-1000</a>
+                                        <a href="javascript:void(0);" onclick="sort(3)" style="background:  #110088;color:#fff" class="wt-bg">300-600</a>
+                                        <a href="javascript:void(0);" onclick="sort(2)" style="background:  #88aa00;color:#fff" class="wt-bg">100-300</a>
+                                                            
+                                            </div>
+                                        </div>
+                                        <div class="row-bx">
+                                            <div class="row-block">
+                                                <div class="col-full">
+                                                    <div class="mark-locwrp">
+                                                        <div class="display-table">
+                                                            <!-- REPEAT -->
+                                                            <div class="display-row">
+                                                                <div class="display-cell">
+                                                                    <h4>Date</h4>
+                                                                </div>
+                                                                <div class="display-cell">
+                                                                    <h4>Village</h4>
+                                                                </div>
+                                                                <div class="display-cell">
+                                                                    <h4>Venue</h4>
+                                                                </div>
+                                                                <div class="display-cell">
+                                                                    <h4>Size</h4>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /REPEAT -->
+                                                            <!-- REPEAT -->
+                                                                                                                        
+        <a onclick="getdetailregional(1)" style="cursor: pointer;">
+         <div class="display-row">
+                                                                <div class="display-cell">
+                                                                    <p> 17-11</p>
+                                                                </div>
+                                                                <div class="display-cell">
+                                                                    <p>bhopal</p>
+                                                                </div>
+                                                                <div class="display-cell">
+                                                                    <p>Helvetiaplatz</p>
+                                                                </div>
+                                                                <div class="display-cell">
+                                                                    <div style="background:#88aa00" class="clrd-bx gn-bx">
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+            </a>                                               
+                                                                                                                        
+                                                          
+                                                            <!-- /REPEAT -->                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                             
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                         <div class="display-table gd-ct-wp">
+                                <div class="display-cell" id="contentdetailregional"><div class="exo-mrk mrx-bk-mn">
+                                        <!-- REPEAT -->
+                                        <div class="col-full">  
+                                            <div class="loc-ttl">
+                                                <h2 class="loc-hd">01.05.2017 &nbsp; &nbsp; Zürich &nbsp; &nbsp; Helvetiaplatz &nbsp;<div class="clrd-bx"></div></h2>
+                                            </div>
+                                            <div class="dl-hoz-wrp">
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">
+                                                        Verkauf
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        10:00-17:00
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        Veloannahme
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        10:00-17:00
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        Auszahlung
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        16:00-18:00
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        Provision
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        15%  <a href="javascript:void(0);">Provisionsliste</a>
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                            </div>
+                                        </div>
+                                        <!-- /REPEAT -->
+                                        <!-- REPEAT -->
+                                        <div class="col-full">  
+                                            <div class="dl-hoz-wrp">
+                                                <div class="dl-hoz-txt">
+                                                    <p>Vorverkauf Mitglieder Pro Velo: 09:00-10:00</p>
+                                                    <p>Veloannahme Händler: 21.05.2017, 18:00-20:00</p>
+                                                    <p>Auszahlung Händler: 18:00-19:00</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /REPEAT --
+                                        <!-- REPEAT -->
+                                        <div class="col-full">
+                                            <div class="dl-hoz-wrp grd-dl">
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">
+                                                        VeranstalterIn
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        ProVelo Zürich
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        E-mail
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        info@provelozuerich.ch
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        Tel.-Nummer
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        044 555 55 55
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        Website
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        <a href="http://127.0.0.1/veloboerse-zurich/www.provelozuerich.ch" target="_blank">www.provelozuerich.ch</a>
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="dl-rw">
+                                                    <div class="dl-lt">                                     
+                                                        Weitere Infos
+                                                    </div>
+                                                    <div class="dl-rt">
+                                                        xyz
+                                                    </div>
+                                                </div>
+                                                <!-- /REPEAT -->
+                                            </div>
+                                        </div>
+                                        <!-- /REPEAT -->
+                                        
+                                    </div></div>
+                            </div>   
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell lnnwsbg">
+                                    <div class="gd-txt feat-list">
+                                        <div class="feat-listwrp">
+                                            <h3>Fahrrad verkaufen</h3>
+                                            <ul>
+                                                <li>
+                                                    Velo zu Annahmezeiten (s. links) registrieren: 
+                                                    Hierzu erhalten Sie vor Ort ein Formular
+                                                </li>
+                                                <li>
+                                                    Velo und ID vorweisen
+                                                </li>
+                                                <li>
+                                                    Einstellgebühr bezahlen (Fr. 5.-/wenn VP über 
+                                                    Fr. 400.-: Fr. 10.-). Wird bei Verkaufserfolg erstattet.
+                                                </li>
+                                                <li>Velo auf Platz stellen, Formularkopie mitnehmen </li>
+                                                <li>Auszahlung/Veloabholung: Zeiten s. links Hierzu Ihre Formularkopie wieder mitbringen!</li>
+                                                <li>Download Börsenregeln</li>
+                                                <li>Download Preisliste (Provisionen)</li>
+                                                <li>Händler (ab 10 Velos): 2 Wochen vorher anmelden</li>                                        
+                                            </ul>
+                                        </div>
+                                        <div class="feat-listwrp">
+                                            <h3>Fahrrad kaufen</h3>
+                                            <ul>
+                                                <li>
+                                                    Verkaufszeiten s. links - Tipp: Früh da sein!
+                                                </li>
+                                                <li>
+                                                    Velos mit ID ausserhalb des Platzes testen
+                                                </li>
+                                                <li>
+                                                    Ggf. Fahrrad von Assistenz kontrollieren lassen
+                                                </li>
+                                                <li>Velo bezahlen, mitnehmen - nur Barzahlung!</li>                                        </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                         </a>                    
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <div class="gd-txt gd-txt-h2 gd-txt-grn">
+                                        <h2>
+                                           Kompakt:
+                                        </h2>
+                                        <h2>
+                                           Wichtige Infos zur Velobörse Zürich
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div> 
+                        </a>                  
+                    </div>
+                    <!-- /REPEAT GRID  -->               
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/bike-secodhand.jpg" alt="bike secodhand">
+                                </div>
+                            </div>     
+                        </a>              
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <div class="display-table gd-ct-wp tl-dnm-bx">
+                                <div class="display-cell">
+                                    <div class="gd-txt gd-txt-h2">
+                                        <h2>
+                                           Teile Deinen besten Film vom Markt in Zürich!
+                                        </h2>
+                                       <div class="row-bx">
+                                            <div class="row-block">
+                                                <div class="col-4">
+                                                     <img src="Veloh_files/vdo1.html" alt="bike market">
+                                                </div>
+                                                <div class="col-4">
+                                                     <img src="Veloh_files/vdo2.html" alt="bike market">
+                                                </div>
+                                                <div class="col-4">
+                                                     <img src="Veloh_files/vdo3.html" alt="bike market">
+                                                </div>
+                                             </div>   
+                                        </div>  
+                                        <div class="vdo-full">
+                                            <img src="Veloh_files/vdofull.jpg" alt="bike market">
+                                        </div>   
+                                        <div class="formbx-wrp">
+                                            <div class="row-block nws-wrp-sb">
+                                                <div class="row-bx">
+                                                    <div class="col-4">
+                                                        <input placeholder="e-mail address" class="input-control" type="text">
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <input placeholder="your name" class="input-control" type="text">
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="slctflbx">
+                                                            <input class="input-control" type="file">
+                                                            <a href="javascript:void(0);">Select file</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <input value="Submit" class="bttn-sbmt" type="submit">
+                                            </div>
+                                        </div>
+                                        <span class="vd-ds-ln">
+                                            Videos werden geprüft vor der Publikation. Wir senden Dir eine Mail!
+                                        </span>
+                                    </div>
+                                </div>
+                            </div> 
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                     <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                         <div class="display-table gd-ct-wp">
+                                <div class="display-cell lnnwsbg">
+                                    <div class="gd-txt gd-txt-wt">
+                                        <h2>
+                                          Unsere Kurz-Bewertung: Börse Zürich Helvetiaplatz
+                                        </h2>
+                                        <div class="flexi-wrp flk-cntcb">
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Auswahl
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Top
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Support durch Helfer
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Top
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Kartenzahlung
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Nein
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Schnelligkeit Abwicklung
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    lange Schlagen
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->                                           
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Schutz vor Regen
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Nein
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Polizeikontrolle Velos
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    teilweise
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            
+                                            
+                                            
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Diebstahlschutz Ausgang
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Gut
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Diebstahlschutz Absperrung
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    mässig
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            
+                                            
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Velo-Verkaufsstatus online
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Nein
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                            <!-- REPEAT -->
+                                            <div class="flexi-rw">
+                                                <div class="flexi-col7 grn-bg">
+                                                    Abgabe am Vortag möglich
+                                                </div>
+                                                <div class="flexi-col5">
+                                                    Nein
+                                                </div>
+                                            </div>
+                                            <!-- /REPEAT -->
+                                        </div>  
+                                        <a href="javascript:void(0);" class="arwbx">
+                                            zu den Kunden-Bewertungen
+                                        </a>                                      
+                                    </div>
+                                </div>
+                            </div>      
+                    </div>
+                    <!-- /REPEAT GRID  -->  
+                    <!-- REPEAT GRID  -->
+                    <div class="flex-col">
+                        <div class="display-table gd-ct-wp">
+                            <div class="display-cell lv-lk-mrk">
+                            	<div>
+                                	<h2>Love it? Like it :)</h2>
+                                </div>
+                                <ul class="psocial-links">
+                                    <li><a class="fb-icon" href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="twt-icon" href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="gm-icon" href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a class="insta-icon" href="javascript:void(0);"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a class="pin-icon" href="javascript:void(0);"><i class="fa fa-pinterest-p"></i></a></li>
+                                </ul>
+                                <div class="newsletter-wrp">
+                                    <input class="input-control" placeholder="Velobörsen per E-mail" type="text">
+                                    <input value="Go!" class="bttn" type="submit">
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                     <!-- REPEAT GRID  -->
+                    <div class="flex-col gmapblk">
+                         <div class="display-table gd-ct-wp">
+                            <div class="display-cell">
+                                <div id="map" style="height: 592px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;" class="gm-style"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default;" tabindex="0"><div style="z-index: 1; position: absolute; top: 0px; left: 0px; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="width: 256px; height: 256px; position: absolute; left: -61px; top: 127px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 195px; top: 127px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -61px; top: -129px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -61px; top: 383px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 195px; top: -129px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 195px; top: 383px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -61px; top: 127px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 195px; top: 127px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="256" width="256"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -61px; top: -129px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -61px; top: 383px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 195px; top: -129px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 195px; top: 383px;"></div></div></div></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden; width: 431px; height: 592px;"><img style="width: 431px; height: 592px;" src="Veloh_files/StaticMapService.png"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="position: absolute; left: -61px; top: -129px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="Veloh_files/vt_004.png"></div><div style="position: absolute; left: 195px; top: 383px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="Veloh_files/vt_003.png"></div><div style="position: absolute; left: 195px; top: -129px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="Veloh_files/vt_005.png"></div><div style="position: absolute; left: -61px; top: 383px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="Veloh_files/vt_006.png"></div><div style="position: absolute; left: 195px; top: 127px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="Veloh_files/vt.png"></div><div style="position: absolute; left: -61px; top: 127px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="Veloh_files/vt_002.png"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;" class="gm-style-pbc"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div></div><div style="z-index: 4; position: absolute; top: 0px; left: 0px; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a style="position: static; overflow: visible; float: none; display: inline;" target="_blank" href="https://maps.google.com/maps?ll=47.36667,8.55&amp;z=8&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps"><div style="width: 66px; height: 26px; cursor: pointer;"><img style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="Veloh_files/google4.png" draggable="false"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 66px; top: 206px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017 GeoBasis-DE/BKG (©2009), Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="Veloh_files/mapcnt6.png" draggable="false"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 161px; bottom: 0px; width: 245px;"><div draggable="false" style="-moz-user-select: none; height: 14px; line-height: 14px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2017 GeoBasis-DE/BKG (©2009), Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017 GeoBasis-DE/BKG (©2009), Google</div></div><div class="gmnoprint gm-style-cc" style="z-index: 1000001; -moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 92px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);" href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank">Terms of Use</a></div></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; border: 0px none; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; -moz-user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;" draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button"><img style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="Veloh_files/sv9.png" draggable="false" class="gm-fullscreen-control"></button><div draggable="false" style="-moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" href="https://www.google.com/maps/@47.36667,8.55,8z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" style="margin: 10px; -moz-user-select: none; position: absolute; bottom: 107px; right: 28px;" draggable="false" controlwidth="28" controlheight="93"><div class="gmnoprint" style="position: absolute; left: 0px; top: 38px;" controlwidth="28" controlheight="55"><div draggable="false" style="-moz-user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; -moz-user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;" draggable="false" title="Zoom in" aria-label="Zoom in" type="button"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img style="position: absolute; left: 0px; top: 0px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" alt="" src="Veloh_files/tmapctrl.png" draggable="false"></div></button><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; -moz-user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;" draggable="false" title="Zoom out" aria-label="Zoom out" type="button"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img style="position: absolute; left: 0px; top: -15px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" alt="" src="Veloh_files/tmapctrl.png" draggable="false"></div></button></div></div><div class="gm-svpc" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; position: absolute; left: 0px; top: 0px;" controlwidth="28" controlheight="28"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;" aria-label="Street View Pegman Control"><img style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="Veloh_files/cb_scout5.png" draggable="false"></div><div style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;" aria-label="Pegman is on top of the Map"><img style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="Veloh_files/cb_scout5.png" draggable="false"></div><div style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;" aria-label="Street View Pegman Control"><img style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="Veloh_files/cb_scout5.png" draggable="false"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; display: none;" title="Rotate map 90 degrees"><img style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="Veloh_files/tmapctrl4.png" draggable="false"></div><div style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; top: 0px; cursor: pointer;" class="gm-tilt"><img style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="Veloh_files/tmapctrl4.png" draggable="false"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div style="float: left; position: relative;" class="gm-style-mtc"><div role="button" tabindex="0" title="Show street map" aria-label="Show street map" aria-pressed="true" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 21px; font-weight: 500;" draggable="false">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;"><div style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;" draggable="false" title="Show street map with terrain"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;" alt="" src="Veloh_files/imgs8.png" draggable="false"></div></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div style="float: left; position: relative;" class="gm-style-mtc"><div role="button" tabindex="0" title="Show satellite imagery" aria-label="Show satellite imagery" aria-pressed="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 37px; border-left: 0px none;" draggable="false">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;"><div style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; -moz-user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;" draggable="false" title="Show imagery with street names"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img style="position: absolute; left: -52px; top: -44px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;" alt="" src="Veloh_files/imgs8.png" draggable="false"></div></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div></div></div></div>
+                               <!-- <img src="http://127.0.0.1/assets/img/map.jpg" alt="google map" />-->
+                            </div>
+                        </div>    
+                    </div>
+                    <!-- /REPEAT GRID  -->
+                </div>
+                <div class="bl-strp"> 
+                    <h2>Besuchereindrücke von der Fahrradbörse Zürich</h2>
+                </div>
+                <!-- REPEAT -->
+                <div class="flex-wrap gd-txt-wrp larg-sngl-outer">
+                    <div class="flex-col thri-col-rw thrd-col-left">
+                         <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/gebrauchtzuerich.jpg" alt="bike billig">                                
+                                </div>
+                            </div>  
+                        </a>
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/yellowwheel.jpg" alt="bike billig">                                
+                                </div>
+                            </div>  
+                        </a> 
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/girls-cycle.jpg" alt="bike billig">                                
+                                </div>
+                            </div>  
+                        </a> 
+                    </div>
+                
+                    <!-- /REPEAT -->
+                    <!-- REPEAT -->
+                    <div class="flex-col sngl-rwcol">
+                        <div class="display-table gd-ct-wp gpbx-md txt-vtop">
+                            <div class="display-cell">
+                                <div class="gd-txt gd-txt-para">
+                                    <h4>
+                                        Velobörsen: Zürich ist Spitze
+                                    </h4>
+                                    <p>
+                                        Von ihrem Stuhl aus überblickt 
+Edna den gesamten Helvetiaplatz: Direkt vor ihr ein paar 
+Kinderfahrräder, dahinter lange Reihen von Rennvelos und City Bikes in 
+allen Farben, Formen und Zuständen bis hin zum ProVelo-Servicestand am 
+anderen Ende des Platzes, und mittendrin sitzen die Händler unter 
+Sonnenschirmen mit ihren Werkzeugkisten. Ein besonderes Augenmerk hat 
+die cremefarbige Mischlingshündin natürlich auf die vor ihr platzierten 
+Bikes, die ihr Herrchen, ein Händler, heute an den Mann oder die Frau 
+bringen will.
+                                    </p>
+                                    <p>Die Auswahl auf dem Zürcher 
+Helvetiaplatz an der Langstrasse ist gross: es werden ca. 1300 Fahrräder
+ zum Verkauf angeboten, etwa die Hälfte davon sind Occasion-Velos. Um 
+die 60% aller Bikes findet gewöhnlich ein neues Zuhause. Kindervelos 
+ebenso wie E-Bikes sind an diesem Maisamstag eher wenige vertreten. In 
+Zürich als grösster Schweizer Stadt organisiert <a href="javascript:void(0);">ProVelo</a> auch die meisten Velobörsen. Allein sechs Mal pro Jahr zwischen März und September veranstaltet <a href="javascript:void(0);"> ProVelo Zürich </a>
+ auf dem Helvetiaplatz gegenüber dem Kanzlei-Flohmarkt eine Velobörse, 
+jeweils einmal zudem am Wolli-Märt in Wollishofen im Hof des Schulhauses
+ sowie in Oerlikon auf dem Max Bill-Platz. Die Kommission für Verkäufer 
+liegt ungefähr zwischen 10 und 20%: bei Fr. 150 Verkaufspreis werden 
+beispielsweise Fr. 120 ausgezahlt, bei Fr. 300 Verkaufspreis Fr. 250. 
+Dazu kommt eine Einstellgebühr für Nichtmitglieder von Fr. 5 (bzw. Fr. 
+10 wenn das Velo über Fr. 400 kosten soll), die bei einem Verkauf 
+zurückerstattet wird. Verglichen mit anderen Börsen wird auf dem 
+Helvetiaplatz wenig Zubehör verkauft, auch Essensstände sucht man 
+vergebens. Testen kann man das Velo in der Nebenstrasse.</p>
+                                    <p>
+                                        Doch nicht nur die Grösse der 
+Börse ist verglichen mit anderen derartigen Märkten beeindruckend, die 
+Schlangen sind es auch: schon um halb 9 stehen die Menschen vor der 
+Kasse, aber diese öffnet erst um 9 Uhr, so dass manche bereits 
+ungeduldig werden. Bezahlt werden kann übrigens nur in bar. Auch am 
+Schluss bei der Auszahlung bilden sich wieder Schlangen (eine separate 
+Händlerkasse für Verkäufer von mehr als 10 Bikes gibt es nicht).
+                                    </p>
+                                    <p>
+                                        Auch in Zürich kann man zwischen
+ unterschiedlichen Qualitätsstufen wählen, und nicht alle kommen mit so 
+klaren Vorstellungen so wie der Herr, der ein Velo haben möchte, dessen 
+Reifen nicht in die Tramschienen geraten. Etwas resigniert kommentiert 
+ein Helfer, dass viele Leute weniger an technischen Details als vielmehr
+ daran interessiert seien, ein lila Velo passend zum lila Kleid zu 
+finden. So versuchten manche Händler auch immer wieder, qualitativ 
+minderwertige Velos zu überhöhten Preisen zu verkaufen: „Ich habe 
+durchgesetzt, dass einige der qualitativ schlechten Velos nicht 
+zugelassen werden. Sie werden eingekauft für 50 Dollar, aber verkauft 
+für Fr. 400.“ Dennoch kritisiert ein Händler, es gäbe in Zürich immer 
+noch mehr minderwertige Velos als an anderen Orten. Auch müsse man als 
+Händler früh auf dem Platz sein - so habe er sein erstes Velo bereits um
+ halb 7 verkauft.
+                                    </p>
+                                    <p>
+                                        Oft versuchen die Händler dazu, 
+ihre Velos in möglichst gutes Licht zu stellen, aber manchmal mit eher 
+zweifelhaften Beteuerungen. Eine Käuferin fragt beispielsweise, ob denn 
+das Velo in der Schweiz hergestellt worden sei? Natürlich, antwortet der
+ Händler. Aber da stehe „Made in Taiwan“… woraufhin der Händler 
+entgegnet, nein, das Fahrrad sei aus der Schweiz. Über die Preise der 
+Fahrräder gehen die Meinungen auseinander: während sich ein Händler 
+beschwert, dass die Leute hier zu sehr auf den Preis schauten und die 
+Händler zu billig verkauften, finden einige Kunden wiederum die 
+Händlerpreise überrissen. Da heute der erste Markt bei schönem Wetter 
+ist, seien die Preise höher als bei schlechtem Wetter; allerdings 
+gewähren die Händler, die nicht speziell gekennzeichnet sind, auf 
+Nachfrage manchmal ein Preisnachlass.
+                                    </p>
+                                    <p>
+                                        Auch hier gilt: Exoten wie 
+Tandems gehen bis zum Ende des Nachmittags nicht weg. Ein Velo im 
+Toblerone-Design für 290 Franken findet so zwar viel Beachtung, bleibt 
+aber am Schluss ebenfalls übrig. Abgesperrt ist die Velobörse nicht mit 
+Zäunen, sondern lediglich mit grünen Kunststoffbanden, die zwar schnell 
+aufgebaut, aber icht gerade sicher sind. Ein gewisses Diebstahlrisiko 
+besteht vor allem nach dem offiziellen Verkaufsschluss, wenn sie zum 
+einfacheren Wegräumen der Velos rasch eingerollt werden. Edna jedenfalls
+ hat bis zum Börsenende gut aufgepasst, dass keines ihrer Velos 
+verschwindet - und bestimmt hat sie sich positiv auf die Umsätze ihres 
+Herrchens ausgewirkt…
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                   
+                    </div>
+                    <!-- /REPEAT -->
+                    <!-- REPEAT -->
+                    <div class="flex-col thri-col-rw">
+                         <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/cycle-stand.jpg" alt="bike">                                
+                                </div>
+                            </div>  
+                        </a>
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/cycletest.jpg" alt="bike">                                
+                                </div>
+                            </div>  
+                        </a>
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/testbike.jpg" alt="bike">                                
+                                </div>
+                            </div>  
+                        </a>
+                    </div>
+                    <!-- /REPEAT -->
+                    </div>
+                    <div class="flex-wrap gd-txt-wrp">
+                    <!-- REPEAT -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/comfortcycle.jpg" alt="bike billig">                                
+                                </div>
+                            </div>  
+                        </a>                 
+                    </div>
+                    <!-- /REPEAT -->
+                    <!-- REPEAT -->
+                      <div class="flex-col">
+                            <div class="display-table gd-ct-wp txt-vtop">
+                                <div class="display-cell">
+                                    <div class="gd-txt gd-txt-para mrkt-rt-bx">
+                                        <h4 class="mrktzurchshare">
+                                            Cutomers ratings:
+                                        </h4>
+                                         <h4 class="mrktzurchshare">What do you like about the Zurich market?</h4>
+                                        <p class="gd-tx-org">Questions or complaints: contact the <a href="javascript:void(0);">organizer</a> directly !</p>
+                                        <div class="formbx-wrp">
+                                            <div class="row-block">
+                                                <div class="row-bx">
+                                                    <div class="col-6">
+                                                        <input placeholder="Name" class="input-control" type="text">
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <input placeholder="Email address" class="input-control" type="text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row-block">
+                                                <div class="row-bx">
+                                                    <div class="col-full">
+                                                        <textarea class="input-control"></textarea>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row-block">
+                                                <div class="row-bx">
+                                                    <div class="col-6">
+                                                        <img class="rt-lngth" src="Veloh_files/rating.png">
+                                                    </div>
+                                                    <div class="col-6 text-right">
+                                                        <input value="Submit" class="bttn-sbmt" type="submit">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="ratng-bx">
+                                                <!-- REPEAT -->
+                                                <div class="ratng-rw">
+                                                    <div class="rt-ttl">
+                                                        <h4>Mike H.<i>12.09.2017</i></h4>
+                                                        <div class="rt-img">
+                                                            <img class="rt-lngth" src="Veloh_files/rating.png">
+                                                        </div>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod temporal incidunt ut labore et dolore magna aliqua!  </p>
+                                                    
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="ratng-rw">
+                                                    <div class="rt-ttl">
+                                                        <h4>Hannah J. <i>22.08.2017</i></h4>
+                                                        <div class="rt-img">
+                                                            <img class="rt-lngth" src="Veloh_files/rating.png">
+                                                        </div>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet :))  </p>
+                                                    
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <!-- REPEAT -->
+                                                <div class="ratng-rw">
+                                                    <div class="rt-ttl">
+                                                        <h4>Stefan M. <i>12.09.2017</i></h4>
+                                                        <div class="rt-img">
+                                                            <img class="rt-lngth" src="Veloh_files/rating.png">
+                                                        </div>
+                                                    </div>
+                                                    <p>Lorem ipsum! </p>
+                                                    
+                                                </div>
+                                                <!-- /REPEAT -->
+                                                <div class="showread">
+                                                    <a href="javascript:void(0);">See more</a>
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </div>
+                                    </div>                              
+                                </div>
+                            </div>             
+                    </div>
+                    <!-- /REPEAT -->
+                    <!-- REPEAT -->
+                    <div class="flex-col">
+                        <a href="javascript:void(0);">
+                            <div class="display-table gd-ct-wp">
+                                <div class="display-cell">
+                                    <img src="Veloh_files/cyclemania.jpg" alt="bike billig">                                
+                                </div>
+                            </div>  
+                        </a>                 
+                    </div>
+                    <!-- /REPEAT -->
+                    
+                </div>   
+                    
+
+
+   <div class="pwrap">
+    <img src="Veloh_files/prdctbn.jpg" alt="bicycle"> 
+    <div class="pstrip">
+        Re-Cycling:) - gib Deinem Göppel neuen Wind ins Rad! 
+    </div>
+    <div class="pstriprt">
+        ride it - love it - like it!
+    </div>
+    <ul class="psocial-links">
+      <!--  <li><a class="fb-icon" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="twt-icon" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="gm-icon" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="insta-icon" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="pin-icon" href="https://in.pinterest.com/"><i class="fa fa-pinterest-p"></i></a></li>-->
+        <div class="social-outer-main">
+         <div class="sharethis-inline-share-buttons st-inline-share-buttons  st-center st-animated" id="st-3"><div class="st-total st-hidden">
+  <span class="st-label"></span>
+  <span class="st-shares">
+    Shares
+  </span>
+</div><div class="st-btn st-first st-remove-label" data-network="facebook" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m21.7 16.7h5v5h-5v11.6h-5v-11.6h-5v-5h5v-2.1c0-2 0.6-4.5 1.8-5.9 1.3-1.3 2.8-2 4.7-2h3.5v5h-3.5c-0.9 0-1.5 0.6-1.5 1.5v3.5z"></path>
+  </g>
+</svg>
+  
+</div><div class="st-btn st-remove-label" data-network="twitter" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m31.5 11.7c1.3-0.8 2.2-2 2.7-3.4-1.4 0.7-2.7 1.2-4 1.4-1.1-1.2-2.6-1.9-4.4-1.9-1.7 0-3.2 0.6-4.4 1.8-1.2 1.2-1.8 2.7-1.8 4.4 0 0.5 0.1 0.9 0.2 1.3-5.1-0.1-9.4-2.3-12.7-6.4-0.6 1-0.9 2.1-0.9 3.1 0 2.2 1 3.9 2.8 5.2-1.1-0.1-2-0.4-2.8-0.8 0 1.5 0.5 2.8 1.4 4 0.9 1.1 2.1 1.8 3.5 2.1-0.5 0.1-1 0.2-1.6 0.2-0.5 0-0.9 0-1.1-0.1 0.4 1.2 1.1 2.3 2.1 3 1.1 0.8 2.3 1.2 3.6 1.3-2.2 1.7-4.7 2.6-7.6 2.6-0.7 0-1.2 0-1.5-0.1 2.8 1.9 6 2.8 9.5 2.8 3.5 0 6.7-0.9 9.4-2.7 2.8-1.8 4.8-4.1 6.1-6.7 1.3-2.6 1.9-5.3 1.9-8.1v-0.8c1.3-0.9 2.3-2 3.1-3.2-1.1 0.5-2.3 0.8-3.5 1z"></path>
+  </g>
+</svg>
+  
+</div><div class="st-btn st-remove-label" data-network="googleplus" style="display: inline-block;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m25.2 20.3q0 3.6-1.6 6.5t-4.3 4.4-6.5 1.6q-2.6 0-5-1t-4.1-2.7-2.7-4.1-1-5 1-5 2.7-4.1 4.1-2.7 5-1q5 0 8.6 3.3l-3.5 3.4q-2-2-5.1-2-2.1 0-4 1.1t-2.8 2.9-1.1 4.1 1.1 4.1 2.8 2.9 4 1.1q1.5 0 2.7-0.4t2-1 1.4-1.4 0.8-1.4 0.4-1.3h-7.3v-4.4h12.1q0.3 1.1 0.3 2.1z m15.1-2.1v3.6h-3.6v3.7h-3.7v-3.7h-3.7v-3.6h3.7v-3.7h3.7v3.7h3.6z"></path>
+  </g>
+</svg>
+  
+</div><div class="st-btn st-last st-remove-label" data-network="pinterest" style="display: none;">
+  <svg fill="#fff" preserveAspectRatio="xMidYMid meet" height="1em" width="1em" viewBox="0 0 40 40">
+  <g>
+    <path d="m37.3 20q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3q-2.4 0-4.8-0.7 1.3-2 1.7-3.6 0.2-0.8 1.2-4.7 0.5 0.8 1.7 1.5t2.5 0.6q2.7 0 4.8-1.5t3.3-4.2 1.2-6.1q0-2.5-1.4-4.7t-3.8-3.7-5.7-1.4q-2.4 0-4.4 0.7t-3.4 1.7-2.5 2.4-1.5 2.9-0.4 3q0 2.4 0.8 4.1t2.7 2.5q0.6 0.3 0.8-0.5 0.1-0.1 0.2-0.6t0.2-0.7q0.1-0.5-0.3-1-1.1-1.3-1.1-3.3 0-3.4 2.3-5.8t6.1-2.5q3.4 0 5.3 1.9t1.9 4.7q0 3.8-1.6 6.5t-3.9 2.6q-1.3 0-2.2-0.9t-0.5-2.4q0.2-0.8 0.6-2.1t0.7-2.3 0.2-1.6q0-1.2-0.6-1.9t-1.7-0.7q-1.4 0-2.3 1.2t-1 3.2q0 1.6 0.6 2.7l-2.2 9.4q-0.4 1.5-0.3 3.9-4.6-2-7.5-6.3t-2.8-9.4q0-4.7 2.3-8.6t6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"></path>
+  </g>
+</svg>
+  
+</div></div>
+         <div class="insta-single-icon"><a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+     </div>
+
+    </ul>
+</div>
+</section>
+ <div class="cycle-banner">
+            <a href="javascript:void(0);">
+                <div class="ad-rdct-bx">
+                    <img src="Veloh_files/cycle.jpg" alt="bicycle">
+                    <div class="cicl-wrp">
+                        <div class="crcl-tri"></div>
+                        <h3>hundreds radical prices check them out!</h3>
+                    </div>
+                </div>
+            </a>
+        </div> 
+        <footer class="footer"> 
+            <ul>
+                <li> <a href="http://127.0.0.1/pages/terms-and-conditions">Terms &amp; Condtions</a></li>
+               <li> <a href="http://127.0.0.1/pages/privacy-policy">Privacy </a></li>
+                <li> <a href="http://127.0.0.1/pages/selling-tips">Selling tips</a></li>
+                
+            </ul>
+        </footer> 
+        
+        </div>
+
+        <div class="ftr-cycle-sec">
+            <div class="ftr-cycle-bx train">
+                <div class="ftr-cycle-flag">Wanna know the #1 bicycle buyer's secret?</div>
+                <div class="ftr-cycle-img"><img class="" src="Veloh_files/bicycle-bottom.png" alt=""></div>
+            </div>
+            <div class="ftr-cycle-sure">
+                <div class="sure-ftr-in">
+                    <h3><strong>Sure.</strong>show me!</h3>
+                </div>
+            </div>
+        </div>
+
+     <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="http://staticxx.facebook.com/connect/xd_arbiter/r/lY4eZXm_YWu.js?version=42#channel=f3a7e354a6d940e&amp;origin=http%3A%2F%2F127.0.0.1" frameborder="0"></iframe><iframe name="fb_xdm_frame_https" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" style="border: medium none;" src="Veloh_files/lY4eZXm_YWu_002.html" frameborder="0"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>            
+   
+<script type="text/javascript" src="Veloh_files/jquery_002.js"></script>
+
+
+<script src="Veloh_files/jquery-ui.js"></script>
+<script src="Veloh_files/jquery.js"></script>
+<script type="text/javascript" src="Veloh_files/datepicker.js"></script>
+<script type="text/javascript" src="Veloh_files/common_002.js"></script>
+<script type="text/javascript">
+ $( function() {
+    $( ".datepicker" ).datepicker({
+  dateFormat: "dd.mm.yy"
+});
+    $('.btimepicker').timepicker({
+       'timeFormat': 'H:i',
+        'minTime': '6:00am',
+        'maxTime': '10:00pm'
+    });
+
+  } );
+                    
+$(document).ready(function(){
+    
+});
+  </script>
+    <script>
+        $(document).ready(function(){
+            $(".navbar-hd a").click(function(){
+                $(".navlist").toggleClass("showmenu");
+            });
+        });
+    </script>
+    
+     
+ <script type="text/javascript" src="Veloh_files/jquery_003.js"></script>
+ <script src="Veloh_files/select2.js"></script>
+
+ <script type="text/javascript" src="Veloh_files/regionalmarketlist.js"></script>  
+ 
+   
+ <script type="text/javascript">
+    
+  
+  
+
+   function ajaxCall() {
+
+    this.send = function(data, url, method, success, type) {
+        type = type || 'json';
+        var successRes = function(data) {
+            success(data);
+        }
+        var errorRes = function(e) {
+            console.log(e);
+            alert("Error found \nError Code: " + e.status + " \nError Message: " + e.statusText);
+        }
+        $.ajax({
+            url: url,
+            type: method,
+            data: data,
+            success: successRes,
+            error: errorRes,
+            dataType: type,
+            timeout: 60000
+        });
+    }
+}
+
+function locationInfo() {
+    var rootUrl = "country";
+    var call = new ajaxCall();
+    this.getCities = function(id) {
+        var oldFormDatacity = {
+  city: "",
+  //...
+}
+ console.log(oldFormDatacity);
+        $(".cities option:gt(0)").remove();
+        var url ='../city/'+id;
+        var method = "post";
+        var data = {};
+        $('.cities').find("option:eq(0)").html("Please wait..");
+        call.send(data, url, method, function(data) {
+            $('.cities').find("option:eq(0)").html("Select City");
+            console.log(data.result);
+            if (data.result.length > 1) {
+                $.each(data.result, function(key, val) {
+                    var option = $('<option />');
+                    option.attr('value', val.id).text(val.city_name);
+                    $('.cities').append(option);
+                    if(oldFormDatacity.city!=""){
+$(".cities").val(oldFormDatacity.city).find("option[value=" + oldFormDatacity.city +"]").attr('selected', true);
+
+}
+  
+                });
+                $(".cities").prop("disabled", false);
+            } else {
+               // alert(data.msg);
+            }
+        });
+    };
+    this.getStates = function(id) {
+        // alert();
+        var oldFormData = {
+  state: "",
+  //...
+}
+         console.log(oldFormData);
+        $(".states option:gt(0)").remove();
+        $(".cities option:gt(0)").remove();
+        var url ='state/'+id;
+        var method = "post";
+        var data = {};
+        $('.states').find("option:eq(0)").html("Please wait..");
+        call.send(data, url, method, function(data) {
+            console.log(data.result);
+            $('.states').find("option:eq(0)").html("Select State");
+            if (data.result.length > 0) {
+         
+                $.each(data.result, function(key, val) {
+                    
+                    var option = $('<option />');
+
+                    option.attr('value', val.id).text(val.name);
+                    $('.states').append(option);
+if(oldFormData.state!=""){
+$(".states").val(oldFormData.state).find("option[value=" + oldFormData.state +"]").attr('selected', true);
+
+}
+                    
+                });
+                if(oldFormData.state!=""){
+                var loc = new locationInfo();
+loc.getCities(oldFormData.state);
+}
+                $(".states").prop("disabled", false);
+            } else {
+                //alert(data.msg);
+            }
+        });
+    };
+    this.getCountries = function() {
+   
+        var url = 'country';
+        var method = "get";
+        var data = {};
+        $('.countries').find("option:eq(0)").html("Please wait..");
+        call.send(data, url, method, function(data) {
+            $('.countries').find("option:eq(0)").html("Select Country");
+            console.log(data);
+            if (data.result.length > 0) {
+                $.each(data['result'], function(key, val) {
+                   console.log("ammar");
+                  console.log(val.id);
+                    var option = $('<option />');
+                    option.attr('value', val.id).text(val.name);
+                    $('.countries').append(option);
+                });
+                $(".countries").prop("disabled", false);
+            } else {
+                //alert(data.msg);
+            }
+        });
+    };
+}
+$(function() {
+    var loc = new locationInfo();
+    var cid='212';
+     loc.getStates(cid);
+    $(".countries").on("change", function(ev) {
+     
+        var countryId = $(this).val()
+        if (countryId != '') {
+            loc.getStates(countryId);
+        } else {
+            $(".states option:gt(0)").remove();
+        }
+    });
+    $(".states").on("change", function(ev) {
+        console.log($(this).val());
+        var stateId = $(this).val();
+      
+        if (stateId != '') {
+            loc.getCities(stateId);
+        } else {
+            $(".cities option:gt(0)").remove();
+        }
+    });
+});
+</script>
+
+<script src="Veloh_files/js"></script>
+ 
+
+  
+     
+
+
+
+</div>
+</body></html>

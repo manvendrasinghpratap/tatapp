@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/Workspace/lc.petsabovetest.com/index.php",
+			"settings":
+			{
+				"buffer_size": 3601,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Workspace/lc.petsabovetest.com/store/index.php",
+			"settings":
+			{
+				"buffer_size": 4562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 9163 files for \"PetsAbove_communalPaw\" (whole word)\n\nE:\\Workspace\\lc.petsabovetest.com\\css\\style.css:\n  412  }\n  413  \n  414: #PetsAbove_communalPaw label {\n  415    display: block;\n  416    padding-top: 3px;\n\nE:\\Workspace\\lc.petsabovetest.com\\store\\includes\\modules\\pages\\petsabove_veterinarians\\header_php.php:\n 3821          case 'clinic_only':\n 3822  \n 3823:             echo '<div class=\"PetsAbove_CommunalPaw\">';\n 3824  \n 3825              echo '<input id=\"PetsAbove_communalPawPrintInClinic\" class=\"PetsAbove_VetCheckbox\" type=\"checkbox\" name=\"' . $name . '\" value=\"1\" ' . ($value == '1' ? 'checked=\"checked\"' : '') . ' />';\n\nE:\\Workspace\\lc.petsabovetest.com\\store\\includes\\modules\\pages\\petsabove_veterinarians\\jscript_veterinarians5.js:\n   59  \n   60  \n   61:     var communalPawDiv = document.getElementById('PetsAbove_communalPaw');\n   62  \n   63      if (! communalPawDiv) {\n\nE:\\Workspace\\lc.petsabovetest.com\\store\\includes\\templates\\template_default\\templates\\petsabove_veterinarians_pet_form.php:\n  133            }\n  134  \n  135:           echo '<div id=\"PetsAbove_communalPaw\" class=\"PetsAbove_PetFormDiv PetsAbove_PetFormDivRight PetsAbove_PetFormDiv1 PetsAbove_Buyer\" ' . $style . '>';\n  136  \n  137            echo '<h3>SELECT MEMORIALIZATION OPTION</h3>';\n\nE:\\Workspace\\lc.petsabovetest.com\\store\\includes\\templates\\template_default\\templates\\petsabove_veterinarians_pet_tagless_form.php:\n  123            }\n  124  \n  125:           echo '<div id=\"PetsAbove_communalPaw\" class=\"PetsAbove_PetFormDiv PetsAbove_PetFormDivRight PetsAbove_PetFormDiv1 PetsAbove_Buyer\" ' . $style . '>';\n  126  \n  127            echo '<h3>SELECT MEMORIALIZATION OPTION</h3>';\n\n5 matches across 5 files\n\n\nSearching 22 files for \"syncHistoryWithStore\" (whole word)\n\nE:\\Workspace\\test-task\\src\\client\\scripts\\index.jsx:\n    3  import { render } from 'react-dom';\n    4  import { Router, browserHistory, match } from 'react-router/es';\n    5: import { syncHistoryWithStore } from 'react-router-redux';\n    6  import { Provider } from 'react-redux';\n    7  \n    .\n   14    window.initialState,\n   15  );\n   16: const history = syncHistoryWithStore(browserHistory, store);\n   17  \n   18  match({ history, routes: createRoutes() }, (error, redirectLocation, renderProps) => {\n\nE:\\Workspace\\test-task\\src\\server\\server.jsx:\n    2  import React from 'react';\n    3  import { createMemoryHistory, match, RouterContext } from 'react-router';\n    4: import { syncHistoryWithStore } from 'react-router-redux';\n    5  import injectTapEventPlugin from 'react-tap-event-plugin';\n    6  import winston from 'winston';\n    .\n   23    const memoryHistory = createMemoryHistory(req.url);\n   24    const store = configureStore(memoryHistory, {});\n   25:   const history = syncHistoryWithStore(memoryHistory, store);\n   26  \n   27    match(\n\n4 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 2855,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/E/Workspace/test-task/src/common/containers/app.jsx",
+			"settings":
+			{
+				"buffer_size": 761,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Workspace/test-task/src/client/scripts/index.jsx",
+			"settings":
+			{
+				"buffer_size": 763,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Workspace/lc.petsabovetest.com/store/includes/modules/shipping/storepickup.php",
+		"/E/Workspace/lc.petsabovetest.com/store/p2KlImTU2e/store_manager.php",
+		"/E/Workspace/lc.petsabovetest.com/includes/jSignature_Tools_Base30.php",
+		"/E/Workspace/lc.petsabovetest.com/css/style.css",
+		"/E/Workspace/lc.petsabovetest.com/store/includes/languages/english/icon_names.php",
+		"/E/Workspace/lc.petsabovetest.com/index.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/ramsey/uuid/src/Builder/DefaultUuidBuilder.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/layouts/default.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/console/Helper/DebugFormatterHelper.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/yaml/Exception/DumpException.php",
+		"/E/Workspace/lc.veloboersen.ch/config/database.php",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/jsmvc/directives/slick.js",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/jsmvc/directives/select2.js",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/about-veloboersen-ch.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-basel.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/velo-recycling.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-eintragen.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/css/main.css",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-datum.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-olten.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/jsmvc/app.js",
+		"/C/Users/Dream/Documents/order.js",
+		"/C/Users/Dream/Documents/shopicron.php",
+		"/E/Workspace/lc.veloboersen.ch/public/js/app.js",
+		"/E/Workspace/lc.veloboersen.ch/bootstrap/app.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/composer/autoload_psr4.php",
+		"/E/Workspace/lc.veloboersen.ch/artisan",
+		"/E/Workspace/lc.veloboersen.ch/database/migrations/2017_03_29_110934_create_organizers_table.php",
+		"/E/Workspace/lc.veloboersen.ch/database/migrations/2017_03_29_110946_create_markets_table.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-luzern.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-bern.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/jsmvc/controllers/pageController.js",
+		"/E/Workspace/lc.veloboersen.ch/app/Http/Controllers/PageController.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/lang/en/pagination.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/paragonie/random_compat/psalm-autoload.php",
+		"/E/Workspace/lc.veloboersen.ch/package.json",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/js/main.js",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/fahrrad-kaufen-verkaufen.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-winterthur.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/routes/web.php",
+		"/E/Workspace/lc.veloboersen.ch/app/Http/Controllers/VeloController.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/index.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/app/Providers/AppServiceProvider.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-biel.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/pages/veloboerse-zuerich.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/partials/jigjaw.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/jsmvc/controllers/sliderController.js",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/partials/slider.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/partials/banner-meta.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/resources/views/home.blade.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/nesbot/carbon/src/Carbon/Lang/zh.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/console/Tests/Fixtures/DescriptorApplication1.php",
+		"/E/Workspace/lc.veloboersen.ch/config/broadcasting.php",
+		"/E/Workspace/lc.veloboersen.ch/public/assets/css/custom_font.css",
+		"/E/Workspace/lc.veloboersen.ch/vendor/phpunit/phpunit/tests/_files/NoTestCaseClass.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/league/flysystem/src/NotSupportedException.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/phpunit/phpunit/tests/_files/NoTestCases.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/http-kernel/Tests/Fixtures/KernelForOverrideName.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/phpunit/phpunit/tests/TextUI/filter-dataprovider-by-only-range.phpt",
+		"/E/Workspace/lc.veloboersen.ch/config/filesystems.php",
+		"/E/Workspace/lc.veloboersen.ch/app/Providers/RouteServiceProvider.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/routing/Route.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/sebastian/resource-operations/src/ResourceOperations.php",
+		"/E/Workspace/lc.veloboersen.ch/readme.md",
+		"/E/Workspace/lc.veloboersen.ch/config/view.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/erusev/parsedown/test/data/horizontal_rule.md",
+		"/E/Workspace/lc.veloboersen.ch/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php",
+		"/E/Workspace/lc.veloboersen.ch/app/Exceptions/Handler.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/finder/Comparator/DateComparator.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/erusev/parsedown/test/data/sparse_list.html",
+		"/E/Workspace/lc.veloboersen.ch/server.php",
+		"/E/Workspace/lc.veloboersen.ch/vendor/phpunit/php-code-coverage/tests/_files/BankAccount.php",
+		"/E/Workspace/CrankWeb/src/CrankWeb/Views/Home/Index.cshtml",
+		"/C/Users/Dream/Documents/problem2.php",
+		"/C/Users/Dream/Documents/problem1",
+		"/E/Workspace/lc.veloboersen.ch/vendor/symfony/translation/MetadataAwareInterface.php",
+		"/E/Workspace/lc.veloboersen.ch/config/mail.php",
+		"/E/Workspace/lc.veloboersen.ch/.env",
+		"/C/Users/Dream/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Dream/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"E:\\Workspace\\test-task",
+			"E:\\Workspace\\lc.petsabovetest.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"syncHistoryWithStore",
+			"PetsAbove_communalPaw",
+			"1.2.14",
+			"seller",
+			"$grandtotal",
+			"$seller",
+			"api_url",
+			"$order",
+			"select2",
+			"select222",
+			";\n",
+			"main-menu",
+			" </span",
+			"a class=\"menu-item\"",
+			"info-box",
+			"info",
+			"Vorderrad",
+			"desc-box",
+			"bg-transpa",
+			"color: #4683d6;\n			font-size: 26px;\n			font-weight: bold;",
+			"url(",
+			"src: url(",
+			"h2",
+			".hint-",
+			"Ok",
+			"item-img",
+			"box-row {",
+			"box-item {",
+			" ",
+			"box-item",
+			"banner",
+			"item-blue",
+			"item-title",
+			" ",
+			"box-exchange",
+			"box-item {",
+			".box-item .item-desc",
+			"box-row",
+			"boxrow",
+			"info-col",
+			"connection",
+			"section-connection",
+			"info-value",
+			"info-label",
+			"<span class=\"info-label\">Veloannahme</span>",
+			"<span class=\"info-label\">Veloannahme</span>\n						<span class=\"info-value\">10:00-17:00</span>",
+			"exchange-list {",
+			"parseArticlePage",
+			"parseAuthorPage",
+			"getNode",
+			"getNodes",
+			"authorLinkArr",
+			"authorCount",
+			"cleantext",
+			"TextPattern",
+			"textpattern"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"scanArticlePage",
+			"scanAuthorPage",
+			"oneNode",
+			"extractNodes",
+			"authorArray",
+			"numberOfAuthors",
+			"Pattern",
+			"pattern"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/Workspace/lc.petsabovetest.com/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/Workspace/lc.petsabovetest.com/store/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2855,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										137,
+										158
+									],
+									[
+										403,
+										424
+									],
+									[
+										830,
+										851
+									],
+									[
+										1082,
+										1103
+									],
+									[
+										1480,
+										1501
+									],
+									[
+										1958,
+										1978
+									],
+									[
+										2132,
+										2152
+									],
+									[
+										2457,
+										2477
+									],
+									[
+										2761,
+										2781
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1714,
+								1714
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 817.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/Workspace/test-task/src/common/containers/app.jsx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								607,
+								607
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/Workspace/test-task/src/client/scripts/index.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "lc.petsabovetest.com",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"storeindexphp",
+				"store\\index.php"
+			],
+			[
+				"indexphp",
+				"index.php"
+			],
+			[
+				"defaultblade",
+				"resources\\views\\layouts\\default.blade.php"
+			],
+			[
+				"appjs",
+				"public\\assets\\jsmvc\\app.js"
+			],
+			[
+				"maincss",
+				"public\\assets\\css\\main.css"
+			],
+			[
+				"pagecontrollerjs",
+				"public\\assets\\jsmvc\\controllers\\pageController.js"
+			],
+			[
+				"fahrrad-kaufen-verkaufen",
+				"resources\\views\\pages\\fahrrad-kaufen-verkaufen.blade.php"
+			],
+			[
+				"sliderblade",
+				"resources\\views\\partials\\slider.blade.php"
+			],
+			[
+				"zueri",
+				"resources\\views\\pages\\veloboerse-zuerich.blade.php"
+			],
+			[
+				"homeblade",
+				"resources\\views\\home.blade.php"
+			],
+			[
+				"zurich",
+				"resources\\views\\pages\\veloboerse-zuerich.blade.php"
+			],
+			[
+				"datumblade",
+				"resources\\views\\pages\\veloboerse-datum.blade.php"
+			],
+			[
+				"bannermeta",
+				"resources\\views\\partials\\banner-meta.blade.php"
+			],
+			[
+				"routesweb",
+				"routes\\web.php"
+			],
+			[
+				"velorecycling",
+				"resources\\views\\pages\\velo-recycling.blade.php"
+			],
+			[
+				"verkaufenblade",
+				"resources\\views\\pages\\fahrrad-kaufen-verkaufen.blade.php"
+			],
+			[
+				"datum",
+				"resources\\views\\pages\\veloboerse-datum.blade.php"
+			],
+			[
+				"slidercontrol",
+				"public\\assets\\jsmvc\\controllers\\sliderController.js"
+			],
+			[
+				"slider",
+				"resources\\views\\partials\\slider.blade.php"
+			],
+			[
+				"datumphp",
+				"resources\\views\\pages\\veloboerse-datum.blade.php"
+			],
+			[
+				".evn",
+				".env"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 394.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

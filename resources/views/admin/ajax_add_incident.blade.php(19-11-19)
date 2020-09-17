@@ -1,0 +1,113 @@
+<form class="quickedit_form">
+ {{ csrf_field() }}
+<table class="table table-hover" >
+<tr>
+								 <th>Edit and save</th>
+                                <td>
+								<input type="hidden" name="incident_id" value="{{$data->id}}">
+								
+								 <input type="text" name="title" id="title" class="form-control" placeholder="Title" value="{{old('name',$data->title)}}">
+								</td>
+                                <td>
+								<textarea name="description" id="description" class="form-control" placeholder="Description">{{old('name',@$data->description)}}</textarea>
+								
+								</td>
+                             
+                               
+                                <td>
+								
+								<div class="input-group date datetimepicker1" >
+						
+                <input type="text"  id="incidentdatetimepicker" name="incidentdatetimepicker" class="form-control datetimepicker1" style="width:70%;border:1px solid #ccc;color: #555;" value="">
+                <span class="input-group-addon " style="text-align: left;border:none"><i class="fa fa-calendar "></i></span>
+              </div>
+			  
+			  <?php
+					$incdatetime='';
+					if(@$data->incident_datetime){
+						$incdatetime=date('m/d/Y H:i',strtotime(@$data->incident_datetime));
+					}
+					
+					?>
+					<script type="text/javascript">
+					var dd2 = "<?php if($incdatetime){
+						echo date('m/d/Y H:i',strtotime(@$data->incident_datetime));
+					}
+					else{
+						
+						echo  date('m/d/Y H:i');
+					}
+					
+					?>";
+					
+						$(function () {
+							$('.datetimepicker1').datetimepicker({
+ defaultDate:  new Date(dd2),
+	 
+	 //else return new Date();
+	 
+
+
+useCurrent:false,
+ 
+
+});
+						});
+					</script>
+			  
+                                   
+                                </td>
+								
+								<td>
+								<select name="type" class="form-control" id="type">
+                            <option value="">Select</option>
+
+                            @if(count($incident_type)>0)
+                            @foreach($incident_type as $row) 
+                            <?php 
+$selectedClass = (isset($data->type) && $data->type==$row->id)?'selected':'';
+                            ?>  
+                            <option value="<?php echo $row->id; ?>" <?php echo $selectedClass; ?>><?php echo $row->type ?></option>
+                          @endforeach
+                          @else
+
+                          @endif
+
+                          </select>
+								
+								</td>
+                                
+								<td>
+                                   <input type="submit" class="btn btn-md btn-info save" value="Save">
+								</td>
+                            </tr>
+</table>
+</form>
+
+<script >
+$(document).ready(function (e) {
+	
+
+	
+$('form.quickedit_form').bind('submit', function () {
+	let formdata=$(this).serialize();
+	$.ajax({
+		type: "POST",
+		
+		url: "{{route('admin-incidentPostQuickEdit')}}",
+		dataType: 'json',
+		data: formdata,
+		
+		success: function (data) {  console.log(data.message.title);
+			if(data.status=='success') location.reload();
+			//createChart(data);   
+		
+		
+		}
+	});
+	return false;
+});
+});
+
+</script >
+  

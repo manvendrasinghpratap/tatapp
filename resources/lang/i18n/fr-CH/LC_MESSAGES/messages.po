@@ -1,0 +1,779 @@
+msgid "Discover for FREE"
+msgstr "Découvrez GRATUITEMENT"
+
+msgid "How you can generate a minimum of $ 563 in less than 30 minutes a day with your SmartPhone or Laptop"
+msgstr "Comment vous pouvez générer un minimum de 563$ en moins de 30 minutes par jour grâce à votre SmartPhone ou votre Laptop
+
+msgid "I want to know"
+msgstr "Je Veux Savoir"
+
+
+msgid "Enter your first name and email to access the explanatory video"
+msgstr "Entrez votre Prénom et votre courriel pour accéder à la vidéo explicative"
+
+msgid "We dive!"
+msgstr "On plonge!"
+
+msgid "Your information is safe. We will never give or sell your information."
+msgstr "Vos informations sont en sécurité. Nous Nous ne donnerons ni vendrons jamais vos informations."
+
+msgid "Fields must be filled"
+msgstr "Les champs doivent êtres remplis"
+
+msgid "how to make a living"
+msgstr "comment gagner votre vie"
+
+msgid "thanks to your phone or your laptop"
+msgstr "grâce à votre téléphone ou votre Laptop"
+
+msgid "Nowadays, it has never been so easy to earn a living "
+msgstr "De nos jours, il n'a jamais été aussi facile de gagner ça vie "
+
+msgid "With all that happens since the arrival of the Digital era, thousands of ways to make a living with your phone or laptop appeared. Watch this short video to discover a turnkey system that will allow you to make a living with your phone or laptop"
+msgstr "Avec toutes ce qui ce passe depuis l'arriver de l'ère Digital, de milliers de façons de gagner votre vie grâce à votre téléphone ou votre laptop sont apparut. Visionnez cette courte vidéo pour découvrir un système clé en main qui vous permettera de gagner votre vie grâce a votre téléphone ou votre laptop"
+
+
+msgid "1st: Work from anywhere in the world!"
+msgstr "1er : Travail de n'importe où à travers le monde!"
+
+msgid "2nd: One and only simple task!"
+msgstr "2ème : Une seule et unique tâche simple!"
+
+
+msgid "3rd: Less than 30 minutes a day!"
+msgstr "3ème : Moins de 30 minutes par jours!"
+
+
+msgid "CREATE MY ACCOUNT"
+msgstr "CRÉER MON COMPTE"
+
+msgid "ONLY 2 WORKING TOOLS NEEDED"
+msgstr "SEULEMENT 2 OUTILS DE TRAVAIL NÉCESSAIRE"
+
+msgid "To use the Digital Kheops platform you must have an intelligent phone or a computer / laptop. And be provided with an internet connection. And voila !"
+msgstr "Pour utiliser la plate-forme de Digital Kheops vous devez avoir soie un téléphone intéligent ou encore un ordinateur / Laptop. Et être muni d'une connexion internet. Et le tour est joué !"
+
+
+msgid "WORKING FROM ANYWHERE ACROSS THE WORLD"
+msgstr "TRAVAIL DE N'IMPORTE OÙ À TRAVERS LE MONDE"
+
+msgid "The Digital Kheops platform will allow you to work from an intelligent phone or a laptop or computer. And this from anywhere in the world."
+msgstr "The Digital Kheops platform will allow you to work from an intelligent phone or a laptop or computer. And this from anywhere in the world."
+
+
+msgid "ONE SINGLE AND UNIQUE SIMPLE TASK TO DO"
+msgstr "UNE SEULE ET UNIQUE TÂCHE SIMPLE À FAIRE"
+
+msgid "You only need to direct traffic to a specific place. One simple task and everything is showing you from A to Z how to perform it."
+msgstr "Vous devez seulement diriger du trafic vers un endroit spécifique. Une seule tâche simple et tout vous est montrer de A à Z comment l'effectuer."
+
+
+msgid "LESS THAN 30 MINUTES PER DAYS"
+msgstr "MOINS DE 30 MINUTES PAR JOURS"
+
+msgid "To succeed with Digital Kheops you must have a minimum of 30 minutes to spend per day to complete this simple task."
+msgstr "Pour réussir avec Digital Kheops vous devez avoir un minimum de 30 minutes à consacrer par jours pour effectuer cette simple tâche."
+
+
+msgid "YOU HAVE ALL THE WHAT YOU NEED TO SUCCEED!"
+msgstr "VOUS AVEZ TOUS CE QU'ILS FAUT POUR RÉUSSIR !"
+
+
+msgid "TÉMOIGNAGES"
+msgstr "TÉMOIGNAGES"
+
+msgid "But the ends of the tortor quis risus euismod fermentum. Reserved entrance exams present here Monday. So that the ends of the Nam accumsan fringilla nisl. I figured it was bananas. Reserved need to drink an entire soccer, no football betting skirt."
+msgstr "Sed finibus tortor quis risus euismod fermentum. Praesent faucibus volutpat ligula ac laoreet. Nam accumsan fringilla nisl ut finibus. Cras rhoncus dictum aliquet. Integer bibendum ligula eget quam dignissim, no vestibulum felis lacinia."
+
+
+msgid "Manu  Lemire"
+msgstr "Manu  Lemire"
+
+msgid "Occupation"
+msgstr "Profession"
+
+
+msgid "Dominuque Fraser"
+msgstr "Dominuque Fraser"
+
+msgid "THIS IS NOT A MAGICAL SYSTEM !!!"
+msgstr "CE N'EST PAS UN SYSTÈME MAGIQUE !!!"
+
+
+msgid "In no case is it a magical system. You will have to carry out your simple task every day and in a constant way to be able to get some results. The system or if you prefer the platform DIGITAL KHEOPS is not a miracle product. This is a platform that includes everything you need to generate online sales."
+msgstr "En aucun cas il s'agit d'un système magique. Vous devrez effectuer votre simple tâche à toutes les jours et de façons constante pour être en mesure d'obtenir quelqconques résultats. Le système ou si vous préférer la plate-forme DIGITAL KHEOPS n'est pas un produit miracle. Il s'agit d'une plate-forme comprennent tous ce que vous avez besoin pour générer des ventes en lignes."
+
+
+
+msgid "We take care of all ... Explanations, follow-up, sales tunnel, close the sale, split test, etc ... If you do all that you will be taught, and you do it in a constant way then you are in position to obtain good results. The estimated time varies depending on the strategy used too;)"
+msgstr "Nous nous occupons de tous... Explications, suivi, tunnel de ventes, conclure la vente, split test, etc... Si vous faite tous ce qui vous sera enseinger, et que vous le faite de façons constante vous serrez alors en postion d'obtenir de beau resultats. Le temps estimé varie en fonctione de la stratégie utliser également ;)"
+
+
+msgid "SIMPLY USE THE INTERNET FORCE !!!"
+msgstr "UTILISER SIMPLEMENT LA FORCE D'INTERNET !!!"
+
+
+msgid "Thanks to the internet, we are now able to reach thousands of people in minutes or hours at most. Its enough to master the good strategy of the web, to know how the algorithm of some platforms of social networks works and BOOM !!! You become viral and manage to generate an annual turnover in just a few months. Well, thats exactly it! You can then use all the knowledge of experts, to use it on your own turnkey buisiness that we offer!"
+msgstr "Grâce à internet, ils nous est maintenant possible de rejoindre des milliers de personnes en quelque minutes ou quelques heures tout au plus. Il suffit de maîtrser les bonne stratégie du web, savoir comment l'algorithme de certaines plate-forme de réseaux sociaux fonctionne et BOOM!!! Vous devenez viral et arriver a générer un chiffre d'affaire annuel en quelque mois seulement. Et bien c'est exactement ça ! Vous pourrez alors utiliser toute le savoir d'experts, pour l'utiliser sur votre propre buisiness clé en mains que nous vous offrons !"
+
+
+msgid "MAKE MONEY EASILY AS EXISTED?"
+msgstr "FAIRE DE L'ARGENT AUSSI FACILEMENT ÇA EXISTE ?"
+
+
+msgid "In fact, the answer is NO! To make money in life, you have to work hard to have it or work smartly and let systems work for you. On the other hand, to manage to create such a system one must nevertheless master some basic notions."
+msgstr "En fait, la réponse est NON ! Pour faire de l'argent dans la vie, vous devez soie travailler fort pour en avoir ou alors travailler intéligement et laisser des systèmes travailler pour vous. Par contre, pour arriver a créer de tel système il faut tout de même maîtriser quelques notions de bases."
+
+
+msgid "That is why the team of DIGITAL KHEOPS to decide to make available to you all are system entirely ridden by profesionals. You will then have a copy / paste of the site and the sales tunnel of it. Make money that easily if you know how to do it. And thats exactly what you will learn inside your FREE ACCOUNT. And you can also use a turnkey system"
+msgstr "C'est pourquoi l'équipe de DIGITAL KHEOPS à décider de vous mettre a disposition toutes sont système entièrement monté par des profesionnels. Vous aurez alors un COPIER / COLLER du site et du tunnel de vente de celle-ci. Faire de l'argent aussi facilement ça exsite si vous savez comment vous y prendre. Et c'est exactement ce que vous apprenderez a l'intérieur de votre COMPTE GRATUIT. Et vous pourrez en plus utiliser un système clé en main"
+
+
+msgid "And much more"
+msgstr "Et beaucoup plus"
+
+
+msgid "BONUS again !!!"
+msgstr "de BONUS encore !!!"
+
+msgid "Inside your member area, you can access a ton of BONUS!"
+msgstr "À l'intérieur de votre espace membre, vous pourrez accédez à une tonnes de BONUS !"
+
+msgid "Copyright 2017- Digitalkheops.com - All rights reserved"
+msgstr "Copyright 2017- Digitalkheops.com - Tous droits réservés"
+
+
+msgid "Enter your first name"
+msgstr "Entrez votre prénom"
+
+msgid "Enter your email"
+msgstr "Entrez votre courriel"
+
+msgid "Registration"
+msgstr "Inscription"
+
+msgid "First Name"
+msgstr "Prénom"
+
+msgid "Last Name"
+msgstr "Nom"
+
+msgid "Email Address"
+msgstr "Adresse courriel"
+
+msgid "Confirmation Email Address"
+msgstr "Confirmation adresse courriel"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Confirm Password"
+msgstr "Confirmatin du mot de passe"
+
+msgid "Register"
+msgstr "M'inscrire"
+
+msgid "Emails matched"
+msgstr "Les courriels concordent"
+
+msgid "Please enter email."
+msgstr "entrer un email."
+
+
+msgid "Please enter valid email."
+msgid "Entrez une adresse email valide."
+
+msgid "Email already exist."
+msgstr "Email existe déjà.."
+
+
+msgid "Please enter confirm password"
+msgstr "Veuillez entrer le mot de passe de confirmation"
+
+msgid "Password must be 6 characters long."
+msgstr "Le mot de passe doit comporter 6 caractères."
+
+
+msgid "Please enter confirm password."
+msgstr "Veuillez entrer le mot de passe de confirmation."
+
+msgid "Confirm password should match with new password."
+msgstr "Confirmer le mot de passe doit correspondre au nouveau mot de passe."
+
+msgid "Please enter confirm email."
+msgstr "entrez confirmation email."
+
+msgid "confimation email should match with email."
+msgstr "email de confirmation devrait correspondre avec l'email."
+
+msgid "First name is required."
+msgstr "Le prénom est requis."
+
+msgid "Last name is required."
+msgstr "le nom de famille est requis."
+
+msgid "This field is required."
+msgstr "Ce champ est requis."
+
+msgid "an email verification link has been sent to your email id. Please confirm email before proceed."
+msgstr "Un lien de vérification Email a été envoyé votre identifiant email. S'il vous plaît confirmer l'email avant de procéder."
+
+msgid "Hello"
+msgstr "Bonjour"
+
+msgid "Log in"
+msgstr "Connexion"
+
+msgid "Pay"
+msgstr "Payez"
+
+msgid "initially to get access to 7 videos. You can ask for refund in 14 days."
+msgstr "au départ pour avoir accès à 7 vidéos. Vous pouvez demander le remboursement dans les 14 jours."
+
+msgid "Starter Plan"
+msgstr "Plan de démarrage"
+
+msgid "Card Number"
+msgstr "Numéro de carte"
+
+msgid "Payment Details"
+msgstr "Détails de paiement"
+
+msgid "Pay Now"
+msgstr "Payez maintenant"
+
+msgid "You are already register with us"
+msgstr "Vous êtes déjà inscrit chez nous"
+
+msgid "Please login"
+msgstr "Veuillez vous connecter"
+
+msgid "Log out"
+msgstr "Me déconnecter"
+
+msgid "Home"
+msgid "Accueil"
+
+msgid "Start Here"
+msgstr "Commencer ICI"
+
+msgid "7 Free Steps"
+msgstr "7 étapes gratuites"
+
+msgid "Tools"
+msgstr "Outils"
+
+msgid "My info"
+msgstr "Mes infos"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Packages"
+msgstr "Forfaits"
+
+msgid "Please enter first name"
+msgstr "S'il vous plaît entrer le prénom"
+
+msgid "Summary of your results"
+msgstr "Résumé de vos résultats"
+
+msgid "Leads"
+msgstr "Leads"
+
+msgid "Registrations"
+msgstr "Inscriptions"
+
+msgid "Members"
+msgstr "membres"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "Your Sponsor"
+msgstr "Votre sponsor"
+
+msgid "Your Affiliate Link"
+msgstr "Votre lien d'affiliation"
+
+msgid "Affiliate Links"
+msgstr "Liens d'affiliés"
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "Change The Plan"
+msgstr "Changer de forfait"
+
+
+msgid "Subscribe"
+msgstr "Souscrire"
+
+
+msgid "No Plan Purchased"
+msgstr "Aucun plan acheté"
+
+msgid "Your Plan"
+msgstr "Votre plan"
+
+msgid "Are you sure you to refund this amount ?. Your account wiil be deactivated once you proceed."
+msgstr "Êtes-vous sûr de rembourser ce montant ?, votre compte sera désactivé une fois que vous aurez procédé"
+
+
+msgid "Proceed"
+msgstr "Procéder"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Cancel Plan"
+msgstr "Annuler mon plan"
+
+msgid "Here you will find the site of the websites used in the trainings."
+msgstr "Vous trouverez ici la lsite des sites web utilisé dans les formations."
+
+
+msgid "MAIN NAVIGATIONS"
+msgstr "PRINCIPALES NAVIGATIONS"
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Plans"
+msgstr "Plans"
+
+msgid "Keyword"
+msgstr "Mot-clé"
+
+msgid "Select Status"
+msgstr "Sélectionnez le statut"
+
+msgid "Active"
+msgstr "Actif"  
+
+msgid "In Active"
+msgstr "Inactif"
+
+msgid "Search"
+msgstr "Chercher"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Package Name"
+msgstr "Nom du paquet"
+
+msgid "Package Price"
+msgstr "Prix ​​du coffret"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Created Date"
+msgstr "Date de création"
+
+msgid "Action"
+msgstr "Action"
+
+
+msgid "Link your payment account"
+msgstr "Lier votre compte de paiement"
+
+
+msgid "Get Paid"
+msgstr "Être payé"
+
+msgid "Discover for FREE how two new trades will help you earn a living with three simple tools that everyone uses every day"
+msgstr "Découvre GRATUITEMENT comment deux nouveaux métiers te permettront de gagner ta vie grâce à trois outils simples que tout le monde utilise tous les jours"
+
+msgid "We will not share your email"
+msgstr "Nous ne partagerons pas votre courriel"
+
+msgid "Read our"
+msgstr "Lisez notre"
+
+msgid "privacy policy"
+msgstr "politique de confidentialité"
+
+msgid "You are almost there"
+msgstr "Tu y es presque"
+
+msgid "A little step further"
+msgstr "Une petite étape encore"
+
+msgid "I just sent you an email. To complete your registration you just have to confirm your email address. If you have not received the email within 2 to 3 minutes ... Remember to check your unwanted emails / SPAM. Thank you we see on the other side"
+msgstr "Je viens tout juste de t’envoyer un courriel. Pour compléter ton inscription il te faut simplement aller confirmer ton adresse courriel. Si tu n’as pas reçu le mail d’ici 2 à 3 minutes… Pense à vérifier tes courriels indésirables / SPAM. Merci on se voit de l’autre côté" 
+
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+msgid "Please read these Terms carefully, and contact us if you have any questions"
+msgstr "Veuillez lire attentivement ces conditions et contactez-nous si vous avez des questions"
+
+msgid "Start"
+msgstr "COMMENCER"
+
+msgid "Start 7 Steps"
+msgstr "Commencez 7 étapes"
+
+msgid "7 steps for"
+msgstr "7 étapes pour"
+
+msgid "make a living online"
+msgstr "gagner sa vie en ligne"
+
+msgid "starting from scratch"
+msgstr "en partant de zéro"
+
+msgid "Discover two new trades that emerged from the digital age"
+msgstr "Découvre deux nouveaux métiers qui ont émergé de l'ère numérique"
+
+msgid "Secure"
+msgstr "Sécuritaire"
+
+
+msgid "Series of 7 videos to learn how"
+msgstr "Série de 7 vidéos pour apprendre comment"
+
+msgid "make a living by simply selling information"
+msgstr "gagner ta vie en vendant simplement de l'information"
+
+msgid "in a completely automated way"
+msgstr "de façon complètement automatisée"
+
+
+msgid "All thanks to three tools that everyone uses every day"
+msgstr "Tout ça grâce à trois outils que tout le monde utilise tous les jours"
+
+msgid "We went through different economies. And the society we know is experiencing the biggest economic change it has ever experienced. Several parameters and variables have changed with the arrival of the digital age. In other, how to make a living. Becoming an info-taker or becoming an Affiliate allows you to start your own business very quickly without having"
+msgstr "Nous avons traversé différentes économies. Et la société que nous connaissons est en train de vivre le plus gros changement économique qu'elle n'aura jamais connu. Plusieurs paramètres et variables ont changé avec l'arrivée de l'ère numérique. En autre celui de comment gagner sa vie. Devenir info-preneur ou encore devenir Affilié, permet de se lancer à son compte très rapidement sans avoir"
+
+
+msgid "Here is what they think"
+msgstr "Voici ce qu'ils en pensent"
+
+msgid "Danny, you are someone who inspires success in his DNA, and when you take the time to get to know yourself better, you realize how endless you are a man of infinite resources who has the incredible ability to ALWAYS find a way to succeed and that is exceptional! Hat my friend"
+msgstr "Danny tu es quelqu'un qui inspire jusque dans son ADN le succès. Quand on prend le temps de mieux te connaître, on se rend compte à quel point tu es un homme aux ressources infinies qui a la capacité incroyable de TOUJOURS trouver un moyen de réussir et ça, c'est exceptionnel! Chapeau mon ami!"
+
+msgid "Speaker and Author"
+msgstr "Conférencier et Auteur"
+
+msgid "Danny Cyr is nothing short of"
+msgstr "Danny Cyr ce n’est rien de moins que de"
+
+msgid "NEXT BIG STAR"
+msgstr "NEXT BiG STAR"
+
+msgid "It is definitely THE PERSON to follow if you want to make money online. to revolutionize the way of generating passive income on the web.By his great sensitivity, his listening and his daring Danny is a visionary like there is little"
+msgstr "C’est sans aucun doute LA PERSONNE à suivre si vous souhaitez faire de l’argent en ligne. À mon avis, Danny s’apprête à révolutionner la manière de générer des revenus passifs sur le web. Par sa grande sensibilité, son écoute et son audace. Danny est un visionnaire comme il y en a peu"
+
+
+msgid "Speaker and Mentor in Business Development"
+msgstr "Conférencière et mentor en développement  d'affaires"
+
+msgid "Deposit"
+msgstr "Dépôt"
+
+
+msgid "Guaranteed"
+msgstr "Garanti"
+
+
+msgid "Deposit returned 100% when requested"
+msgstr "Dépôt remis à 100% lorsque demandé"
+
+msgid "This is a series of 7 FREE videos to learn how two new trades can change your life in the next 90 days. This video series will explain the basics of knowing how to succeed in these two areas. This video series also discusses what it takes as tools and knowledge to really be successful in the next 90 days. And as this video series contains VERY VERY high value-added content, revealing some secrets then you have to give a deposit in order to get the FREE video series for 14 days. Anytime within this period you can ask for your deposit again"
+msgstr "Il s'agit ici d'une série de 7 vidéos GRATUITES afin d'apprendre comment deux nouveaux métiers pourront changer votre vie d'ici les prochains 90 jours. Cette série de vidéos expliquera les bases à savoir pour réussir à se développer dans ces deux domaines. Cette série de vidéos traite également de ce qu'il faut comme outils et connaissances pour réellement avoir du succès d'ici les 90 prochains jours. Et comme cette série de vidéos contient du contenu à TRÈS TRÈS haute valeur ajoutée, révélant certains secrets il faut alors donner un dépôt afin d'obtenir la série de vidéos GRATUITE pour une durée de 14 jours. N'importe quand à l'intérieur de ce délai vous pouvez redemander votre dépôt"
+
+
+msgid "What are you waiting for exactly"
+msgstr "Vous attendez quoi exactement"
+
+msgid "Request your FREE video series immediately and start immediately adapting to our new economy"
+msgstr "Demande ta série de vidéos GRATUITES immédiatement et commence de suite à t'adapter à notre nouvelle économie"
+
+
+msgid "P.S. At any time you can ask for your deposit again. I am here for one purpose, to make you understand that the old economic model (Work hard 40h / week ... For 40 years ... For + / - 40k per year) and it is over and I am Commit to showing you everything from A to Z"
+msgstr "P.S. À n'importe quel moment vous pouvez redemander votre dépôt. Je suis ici pour un seul but, vous faire comprendre que l'ancien modèle économique (Travailler dur 40h/sem... Pendant 40 ans...Pour +/- 40k par année) et bien c'est terminé et je m'engage à tout vous montrer de A à Z"
+
+
+msgid "Reference is mendatory to continue"
+msgstr "La référence est mendatoire pour continuer"
+
+msgid "Reference is not valid"
+msgstr "La référence n'est pas valide"
+
+
+msgid "Unlock Next Video"
+msgstr "Débloquer la prochaine vidéo"
+
+msgid "Account"
+msgstr "compte"
+
+msgid "Account is not linked yet. Please Link"
+msgstr "Le compte n'est pas encore lié. S'il vous plaît lien"
+
+
+msgid "Total Commision in this month"
+msgstr "Total Commission dans ce mois"
+
+
+msgid "Payout Date"
+msgstr "Date de paiement"
+
+
+msgid "Forgot Password"
+msgstr "Mot de passe oublié"
+
+msgid "You must have a referent to register"
+msgstr "Vous devez avoir un référent pour vous inscrire"
+
+
+msgid "Please Confirm"
+msgstr "Veuillez confirmer"
+
+
+msgid "Are you sure you to change your package"
+msgstr "Êtes-vous sûr de vouloir changer votre plan d'abonnement"
+
+
+msgid "Plan Price"
+msgstr "Plan Price"
+
+msgid "Proceed"
+msgstr "Procéder"
+
+
+msgid "Delete Account"
+msgstr "Supprimer le compte"
+
+msgid "Reset Password"
+msgstr "réinitialiser le mot de passe"
+
+msgid "Send Password Reset Link"
+msgstr "Envoyer le mot de passe"
+
+
+
+
+msgid "Dashboard CMS"
+msgstr "CMS du tableau de bord"
+
+msgid "Video Title"
+msgstr "titre de la vidéo"
+
+msgid "Updated On"
+msgstr "Mis à jour le"
+
+msgid "Created At"
+msgstr "Créé à"
+
+msgid "Exclusive Member Plan"
+msgstr "Plan de membre exclusif"
+
+msgid "Exclusive Plan"
+msgstr "Plan exclusif"
+
+msgid "Member Exclusive"
+msgstr "Exclusif aux membres"
+
+msgid "Current Plan"
+msgstr "Plan actuel"
+
+msgid "Start 7 Steps"
+msgstr "Commencez 7 étapes"
+
+msgid "Plan Image"
+msgstr "Planifier l'image"
+
+msgid "Next Video"
+msgstr "Vidéo suivante"
+
+
+msgid "CONFIDENTIALITY DECLARATION"
+msgstr "DÉCLARATION DE CONFIDENTIALITÉ"
+
+msgid "ARTICLE 1 - PERSONAL INFORMATION COLLECTED"
+msgstr "ARTICLE 1 - RENSEIGNEMENTS PERSONNELS RECUEILLIS"
+
+
+msgid "When you make a purchase on our website, as part of our buying and selling process, we collect the personal information you provide to us, such as your name and email address"
+msgstr "Lorsque vous effectuez un achat sur notre site web, dans le cadre de notreprocessus d’achat et de vente, nous recueillons les renseignements personnels quevous nous fournissez, tels que votre nom et votre adresse e-mail"
+
+msgid "When you browse our site, we also automatically receive your computers Internet Protocol (IP) address, which allows us to get more details about the browser and operating system you are using."
+msgstr "Lorsque vous naviguez sur notre site, nous recevons également automatiquementl’adresse de protocole Internet (adresse IP) de votre ordinateur, qui nous permetd’obtenir plus de détails au sujet du navigateur et du système d’exploitation que vousutilisez"
+
+msgid "Email marketing: With your permission, we may send you e-mails about our website, services, new products and other updates."
+msgstr "Marketing par e-mail : Avec votre permission, nous pourrions vous envoyer dese-mails au sujet de notre site web, de nos services, de nouveaux produits et d’autresmises à jour."
+
+msgid "ARTICLE 2 - CONSENT"
+msgstr "ARTICLE 2 - CONSENTEMENT"
+
+
+msgid "How do you get my consent?"
+msgstr "Comment obtenez-vous mon consentement?"
+
+msgid "When you provide us with your personal information to complete a transaction, check your credit card, place an order, schedule a delivery, or return a purchase, we assume that you agree to us collecting your information and using it for that purpose only."
+msgstr "Lorsque vous nous fournissez vos renseignements personnels pour conclure unetransaction, vérifier votre carte de crédit, passer une commande, planifier unelivraison ou retourner un achat, nous présumons que vous consentez à ce que nousrecueillions vos renseignements et à ce que nous les utilisions à cette finuniquement."
+
+
+msgid "If we ask you to provide us with your personal information for another reason, for marketing purposes for example, we will ask you directly for your explicit consent, or we will give you the opportunity to defer."
+msgstr "Si nous vous demandons de nous fournir vos renseignements personnels pour uneautre raison, à des fins de marketing par exemple, nous vous demanderonsdirectement votre consentement explicite, ou nous vous donnerons la possibilité derefuser."
+
+msgid "How can I withdraw my consent?"
+msgstr "Comment puis-je retirer mon consentement?"
+
+msgid "If after having given us your consent, you change your mind and do not allow us to contact you, collect your information or divulge it, you can notify us by contacting us at support@digitalkheops.com or by mail to: Management Danny Cyr Inc. 129 RueA-Guindon, St-therese, QC, J7E 5P1, Canada"
+msgstr "Si après nous avoir donné votre consentement, vous changez d’avis et ne consentezplus à ce que nous puissions vous contacter, recueillir vos renseignements ou lesdivulguer, vous pouvez nous en aviser en nous contactant à support@digitalkheops.com ou par courrier à: Gestion Danny Cyr Inc. 129 RueA-Guindon, St-thérèse, QC, J7E 5P1, Canada"
+
+
+msgid "ARTICLE 3 - DISCLOSURE"
+msgstr "ARTICLE 3 - DIVULGATION"
+
+msgid "We may disclose your personal information if we are required by law to do so or if you violate our Terms and Conditions of Sale and Use."
+msgstr "Nous pouvons divulguer vos renseignements personnels si la loi nous oblige à lefaire ou si vous violez nos Conditions Générales de Vente et d’Utilisation."
+
+msgid "Payment"
+msgstr "Paiement"
+
+
+msgid "If you make your purchase through a direct payment gateway, in this case Digital Kheops will store your credit card information. This information is encrypted in accordance with the data security standard established by the payment card industry (PCI-DSS). The information related to your purchase transaction is kept as long as necessary to finalize your order. Once your order is finalized, the information relating to the purchase transaction is deleted."
+msgstr "Si vous réalisez votre achat par le biais d’une passerelle de paiement direct, dans cecas Digital Kheops stockera vos renseignements de carte de crédit. Cesrenseignements sont chiffrés conformément à la norme de sécurité des donnéesétablie par l’industrie des cartes de paiement (norme PCI-DSS). Les renseignementsrelatifs à votre transaction d’achat sont conservés aussi longtemps que nécessairepour finaliser votre commande. Une fois votre commande finalisée, lesrenseignements relatifs à la transaction d’achat sont supprimés."
+
+msgid "All direct payment gateways comply with the PCI-DSS standard, managed by the PCI Security Standards Board, which is the result of joint corporate efforts such as Visa, MasterCard, American Express and Discover.
+"
+msgstr "Toutes les passerelles de paiement direct respectent la norme PCI-DSS, gérée parle conseil des normes de sécurité PCI, qui résulte de l’effort conjoint d’entreprisestelles que Visa, MasterCard, American Express et Discover"
+
+
+msgid "PCI-DSS requirements ensure the secure processing of credit card data by our store and service providers."
+msgstr "Les exigences de la norme PCI-DSS permettent d’assurer le traitement sécurisé desdonnées de cartes de crédit par notre boutique et par ses prestataires de services."
+
+msgid "For more information, please see the DigitalKheops Terms of Use here or the Privacy Policy here."
+msgstr "Pour plus d’informations, veuillez consulter les Conditions d’Utilisation de DigitalKheops ici ou la Politique de Confidentialité ici."
+
+
+msgid "ARTICLE 5 - SERVICES PROVIDED BY THIRD PARTIES"
+msgstr "ARTICLE 5 - SERVICES FOURNIS PAR DES TIERS"
+
+
+msgid "In general, the third party providers we use will only collect, use and disclose your information to the extent necessary to perform the services they provide to us."
+msgstr "De manière générale, les fournisseurs tiers que nous utilisons vont uniquementrecueillir, utiliser et divulguer vos renseignements dans la mesure du nécessairepour pouvoir réaliser les services qu’ils nous fournissent."
+
+
+msgid "However, some third-party service providers, such as payment gateways and other payment transaction processors, have their own privacy policies regarding the information we are required to provide to them for your purchase transactions."
+msgstr "Cependant, certains tiers fournisseurs de services, comme les passerelles depaiement et autres processeurs de transactions de paiement, possèdent leurspropres politiques de confidentialité quant aux renseignements que nous sommestenus de leur fournir pour vos transactions d’achat"
+
+
+msgid "With respect to these providers, we recommend that you carefully read their privacy policies so that you understand how they will treat your personal information."
+msgstr "En ce qui concerne ces fournisseurs, nous vous recommandons de lireattentivement leurs politiques de confidentialité pour que vous puissiez comprendrela manière dont ils traiteront vos renseignements personnels."
+
+
+msgid "It should be remembered that some providers may be located or have facilities located in a different jurisdiction than you or ours. So if you decide to pursue a transaction that requires the services of a supplier, your information may then be governed by the laws of the jurisdiction in which that provider is located or those of the jurisdiction in which its facilities are located."
+msgstr "Il ne faut pas oublier que certains fournisseurs peuvent être situés ou avoir desinstallations situées dans une juridiction différente de la vôtre ou de la nôtre. Donc sivous décidez de poursuivre une transaction qui requiert les services d’un fournisseurtiers, vos renseignements pourraient alors être régis par les lois de la juridiction danslaquelle ce fournisseur se situe ou celles de la juridiction dans laquelle sesinstallations sont situées."
+
+msgid "For example, if you are located in Canada and your transaction is processed by a US-based payment gateway, the information you own that was used to close the transaction could be disclosed under US law. , including the Patriot Act."
+msgstr "À titre d’exemple, si vous êtes situé au Canada et que votre transaction est traitéepar une passerelle de paiement située aux États-Unis, les renseignements vousappartenant qui ont été utilisés pour conclure la transaction pourraient être divulguésen vertu de la législation des États-Unis, y compris le Patriot Act."
+
+msgid "Once you leave our website or are redirected to the website or the application of a third party, you are no longer governed by this Privacy Policy or by the Terms and Conditions of Sale and Use of our website."
+msgstr "Une fois que vous quittez notre site web ou que vous êtes redirigé vers le site webou l’application d’un tiers, vous n’êtes plus régi par la présente Politique deConfidentialité ni par les Conditions Générales de Vente et d’Utilisation de notre siteweb."
+
+
+msgid "Connections"
+msgstr "Liens"
+
+msgid "You may have to leave our website by clicking on some of the links on our site. We do not assume any responsibility for the privacy practices of these other sites and we strongly recommend that you follow their privacy policies."
+msgstr "Vous pourriez être amené à quitter notre site web en cliquant sur certains liensprésents sur notre site. Nous n’assumons aucune responsabilité quant aux pratiquesde confidentialité exercées par ces autres sites et vous recommandons de lireattentivement leurs politiques de confidentialité."
+
+msgid "ARTICLE 6 - SECURITY"
+msgstr "ARTICLE 6 - SÉCURITÉ"
+
+
+msgid "To protect your personal information, we take reasonable precautions and follow industry best practices to ensure that they are not lost, misappropriated, accessed, disclosed, altered or inappropriately destroyed."
+msgstr "Pour protéger vos données personnelles, nous prenons des précautionsraisonnables et suivons les meilleures pratiques de l’industrie pour nous assurerqu’elles ne soient pas perdues, détournées, consultées, divulguées, modifiées oudétruites de manière inappropriée."
+
+
+msgid "If you provide us with your credit card information, they will be encrypted through the use of the SSL security protocol and stored with AES-256 encryption. Although no method of Internet transmission or electronic storage is 100% secure, we follow all the requirements of the PCI-DSS and implement additional standards generally recognized by the industry."
+msgstr "Si vous nous fournissez vos informations de carte de crédit, elles seront chiffrées parle biais de l’utilisation du protocole de sécurisation SSL et conservées avec unchiffrement de type AES-256. Bien qu’aucune méthode de transmission sur Internetou de stockage électronique ne soit sûre à 100 %, nous suivons toutes les exigences de la norme PCI-DSS et mettons en œuvre des normes supplémentairesgénéralement reconnues par l’industrie"
+
+
+msgid "ARTICLE 7 - AGE OF CONSENT"
+msgstr "ARTICLE 7 - ÂGE DE CONSENTEMENT"
+
+
+msgid "By using this site, you represent that you are at least the age of majority in your state or province of residence, and that you have given us your consent to allow any dependent minor to use this website."
+msgstr "En utilisant ce site, vous déclarez que vous avez au moins l’âge de la majorité dansvotre État ou province de résidence, et que vous nous avez donné votreconsentement pour permettre à toute personne d’âge mineur à votre charge d’utiliserce site web."
+
+
+
+msgid "ARTICLE 8 - AMENDMENTS TO THIS DECONFIDENTIALITY POLICY"
+msgstr "ARTICLE 8 - MODIFICATIONS APPORTÉES À LA PRÉSENTE POLITIQUE DECONFIDENTIALITÉ"
+
+
+
+msgid "We reserve the right to modify this Privacy Policy at any time, so please check it frequently. Changes and clarifications will take effect immediately upon posting on the website. If we make any changes to the contents of this policy, we will notify you here that it has been updated, so that you know what information we collect, how we use it, and under what circumstances we disclose it, if there is any instead of doing it."
+msgstr "Nous nous réservons le droit de modifier la présente politique de confidentialité àtout moment, donc veuillez s’il vous plait la consulter fréquemment. Leschangements et les clarifications prendront effet immédiatement après leurpublication sur le site web. Si nous apportons des changements au contenu de cettepolitique, nous vous aviserons ici qu’elle a été mise à jour, pour que vous sachiezquels renseignements nous recueillons, la manière dont nous les utilisons, et dansquelles circonstances nous les divulguons, s’il y a lieu de le faire."
+
+
+msgid "If our website and platform is acquired by or through a merger with another company, your information may be transferred to the new owners so that we may continue to sell you products and services."
+msgstr "Si notre site web et notre plate-forme fait l’objet d’une acquisition par ou d’une fusionavec une autre entreprise, vos renseignements pourraient être transférés auxnouveaux propriétaires pour que nous puissions continuer à vous vendre desproduits et services."
+
+
+msgid "QUESTIONS AND CONTACT"
+msgstr "QUESTIONS ET COORDONNÉES"
+
+msgid "If you wish to: access, correct, modify or delete any personal information we have about you, file a complaint, or if you simply want more information, contact a member of the Digital Kheops Academy team and responsible for privacy standards at support@digitalKheops.com or by mail at Gestion Danny Cyr Inc."
+msgstr "Si vous souhaitez: accéder à, corriger, modifier ou supprimer toute informationpersonnelle que nous avons à votre sujet, déposer une plainte, ou si vous souhaitezsimplement avoir plus d’informations, contactez un membre de l'équipe del'Académie Digital Kheops et responsable des normes de confidentialité àsupport@digitalKheops.com ou par courrier à Gestion Danny Cyr Inc."
+
+msgid "[Re: Privacy Standards Officer]"
+msgstr "[Re: Agent des Normes de Confidentialité]"
+
+msgid "[129 A-Guindon Street, St-Therese, QC, J7E 5P1, Canada]"
+msgstr "[129 Rue A-Guindon, St-thérèse, QC, J7E 5P1, Canada]"
+
+
+
+msgid "Paypal Account"
+msgstr "Compte Paypal"
+
+msgid "Your account is not linked yet. Click the following button to link your Paypal account."
+msgstr "Votre compte n'est pas encore lié. Cliquez sur le bouton suivant pour lier votre compte Paypal."
+
+msgid "Stripe Account"
+msgstr "Compte Stripe"
+
+
+msgid "Your account is not linked yet. Click the following button to link your Stripe account."
+msgstr "Votre compte n'est pas encore lié. Cliquez sur le bouton suivant pour lier votre compte Stripe."
+
+msgid "Update Credit Card"
+msgstr "Mettre à jour la carte"
+
+
+msgid "Update Card Detail"
+msgstr "Mettre à jour la carte"
+
+
+msgid "Update Card"
+msgstr "Mise à jour"
+
+msgid "Cancel and Refund"
+msgstr "Annuler et rembourser"
+
+
+msgid "Coming Soon"
+msgstr "arrive bientôt"
+
+
+msgid "Please create your member area by filling out the form below. Your email address will be your login and the chosen password will allow you to login to your member area."
+msgstr "Veuillez créer votre espace membre en remplissant le formulaire ci-dessous. Votre adresse courriel sera votre identifiant et le mot de passe choisi vous permettra de vous connecter à votre espace membre."
+
+
+msgid "Plan Name"
+msgstr "Nom du plan"
+
+msgid "Plan Price"
+msgstr "Plan Price"
